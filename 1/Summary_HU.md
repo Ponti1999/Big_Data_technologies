@@ -1,3 +1,9 @@
+---
+author: Albert Dávid
+neptun code: H1B5EF
+date: 2023.03.05.
+---
+
 # Elmélet
 
 - Entity - egyedi valóságban létező dolog

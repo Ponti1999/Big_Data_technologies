@@ -1,3 +1,9 @@
+---
+author: Albert Dávid
+neptun code: H1B5EF
+date: 2023.03.05.
+---
+
 # Theory
 ## Database fundamentals
 <br>Data Model (Conceptual representation of data structures required by a database):
