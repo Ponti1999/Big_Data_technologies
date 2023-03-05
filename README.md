@@ -5,7 +5,8 @@ Database and Big Data technologies - Óbuda University 2023
 - [ ] Two tests, one in the middle of the semester, one at the end of the semester:
   - [ ] First test: 5th week. Topic: Relational databases, tuning.
     - Theory and Practice (40 points)
-  - [ ] Second test: 13th week. Topic: Big data and Spark. (10 points)
+  - [ ] Second test: 13th week. Topic: Big data and Spark.
+    - Theory (10 points)
 
 - [ ] Must pass both tests and all homework with at least 51% each.
 
@@ -25,4 +26,4 @@ Database and Big Data technologies - Óbuda University 2023
 - Schema: hr / hr
 
 - Online possibility to reach the database: apex.oracle.com
-    - hr schema has to be created by scripts
+    - HR schema has to be created by scripts
