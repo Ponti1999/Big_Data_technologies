@@ -18,6 +18,7 @@ Database and Big Data technologies - Óbuda University 2023
 ## Oracle Virtual Machine
 
 - Download from [here](https://obudaiegyetem-my.sharepoint.com/:u:/g/personal/legradi_gabor_uni-obuda_hu/EXYR68hpKE5LoVZaNmTJOzkBD2-Q6FCL4O-DQ0SNYrJMiQ?e=fjWls2)
+- VMWare Workstation 17 license key: 4A4RR-813DK-M81A9-4U35H-06KND
 - Client tools to Oracle Database:
   - SQL Developer
   - SQL Plus
