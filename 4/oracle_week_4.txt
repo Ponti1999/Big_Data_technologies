@@ -1,0 +1,196 @@
+EXPLAIN PLAN FOR
+SELECT * FROM employees
+ORDER BY first_name DESC;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT last_name, salary FROM employees 
+WHERE salary > 4000;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT * FROM employees 
+WHERE employee_id > 190;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT first_name, employee_id FROM employees 
+WHERE employee_id>10 and first_name like 'A%';
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+/*Unique scan because employee id is unique*/
+EXPLAIN PLAN FOR
+SELECT * FROM employees 
+WHERE employee_id=106;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+/*Index range scan, because it is not unique*/
+EXPLAIN PLAN FOR
+SELECT * FROM employees 
+WHERE department_id=100;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT * FROM employees 
+WHERE  department_id = 20;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT * FROM employees 
+WHERE department_id>=20;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT employee_id FROM employees;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT job_id FROM employees;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT department_id FROM employees;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT COUNT(*) FROM employees;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT COUNT(department_id) FROM employees;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT MIN(department_id) FROM employees;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT employee_id, job_id
+FROM employees;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+/*Index skip scan, az osszetett index az emp_id és a date_pk mentén keres*/
+EXPLAIN PLAN FOR
+SELECT start_date 
+FROM job_history
+WHERE start_date < sysdate;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT first_name 
+FROM employees 
+WHERE first_name like 'A%';
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT first_name 
+FROM employees 
+WHERE first_name like '%a';
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT * FROM employees LEFT JOIN 
+departments USING (department_id);
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT * FROM employees INNER JOIN 
+departments USING (department_id);
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT * FROM employees INNER JOIN 
+departments USING (department_id)
+WHERE employee_id=106;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT employee_id, salary,department_name
+FROM employees FULL JOIN departments 
+USING (department_id);
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT last_name, job_title
+FROM employees FULL JOIN jobs
+USING (job_id);
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT last_name, job_title
+FROM employees NATURAL JOIN jobs;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT employee_id, salary, job_title
+FROM employees, jobs
+WHERE salary < max_salary;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT employee_id, salary, job_title
+FROM employees, jobs
+WHERE employees.job_id=jobs.job_id AND salary < max_salary;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT employee_id, salary,	department_name
+FROM employees, departments;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+ /*+ORDERED emiatt kell cartesian-t csinalnia,
+ mert eredeti sorrend alapján az 1. sor a masik tabla 1. soraval nem egyezik ...*/ 
+EXPLAIN PLAN FOR
+SELECT /*+ORDERED*/ e.last_name, d.department_name, l.country_id, l.state_province 
+FROM employees e, locations l, departments d 
+WHERE e.department_id = d.department_id 
+AND d.location_id = l.location_id;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT * FROM employees 
+WHERE employee_id > 190;
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT SUM(salary) osszeg, manager_id 
+FROM employees GROUP BY manager_id; 
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+SELECT SUM(salary) osszeg, manager_id 
+FROM employees GROUP BY manager_id 
+ORDER BY manager_id; 
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
+
+
+EXPLAIN PLAN FOR
+
+SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
