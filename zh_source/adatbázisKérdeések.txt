@@ -1,0 +1,561 @@
+Párosítsd össze az MPP adatelosztási stratégiákat a magyarázatukkal!
+1 válasz Választás... Az adatokat egyenletesen osztja szét. Minden data node tartalmazza a teljes táblát. A distribution key hash-e alapján osztja szét a rekordokat. Egy megadott attribútum értéktartományai szerint oszt szét.
+Az alábbiak közül melyek jellemzők az MPP adatbázisokra?
+Scale out
+Az alábbiak közül melyik adatelosztási stratégiát támogatja a Teradata?
+Hash algoritmus
+Mire szolgál a Teradata rendszerben a primary index?
+Ennek alapján történik a rekordok szétosztása az AMP-ok között.
+Az MPP adatbázisok relációs adatmodellt valósítanak meg.
+Igaz
+Az alábbiak közül melyek jellemzők az MPP adatbázisokra?
+Egy megadott attribútum értéktartományai szerint oszt szét.
+Az alábbiak közül melyik adatelosztási stratégiát támogatja a Teradata?
+A distribution key hash-e alapján osztja szét a rekordokat.
+Mire szolgál a Teradata rendszerben a primary index?
+Minden data node tartalmazza a teljes táblát.
+Párosítsa össze a CAP-tétel fogalmait a definíciójukkal!
+1 válasz Választás... Availability Partition tolerance Consistency
+A NoSQL adatbázisok mindig ACID-ot garantálnak a tranzakciók végrehajtása során.
+Hamis
+Hogyan nevezzük azt az elosztási stílust, amikor ugyanaz az adat több node-on is megtalálható?
+Replikáció
+Az alábbi feladatok közül melyekre érdemes kulcs-érték tárolót használni.
+Cache-elés
+Az alábbiak közül melyik NEM NoSQL adatbázistípus?
+Tömb tároló
+Az alábbi feladatok közül melyekre érdemes kulcs-érték tárolót használni.
+Munkamenet adatainak tárolása
+Párosítsa össze a CAP-tétel fogalmait a definíciójukkal!
+Availability
+NoSQL adatbázisok tervezésénél elsősorban a tipikus felhasználásból (gyakran futtatott lekérdezések, DML műveletek) indulunk ki.
+Igaz
+NoSQL adatbázisok tervezésénél a redundancia elkerülésére törekszünk elsősorban.
+Hamis
+Dokumentumtárolóra való áttéréskor az egy-több kapcsolatokat dokumentum beágyazással alakítjuk át.
+Igaz
+Gráfadatbázisra való áttéréskor a több-több kapcsolatokat nem tudjuk kapcsolattal kifejezni, ha a kapcsolótáblában voltak extra attribútumok.
+Hamis
+Gráfadatbázisban az alacsony szelektivitású attribútumokat lehetséges címkével helyettesíteni.
+Igaz
+Az alábbiak közül melyek tárolódnak diszken?
+HFile
+Egy adott táblán belül egy cellaérték kiválasztásához melyek szükségesek az alábbiak közül?
+sor ID
+A Memstore feladata az, hogy tárolja a memóriában a legutóbbi írási kéréseket, amíg kiírásra nem kerül egy HFile-ba.
+Igaz
+A Zookeeper pontosan egy példányban fut, és a feladata az írási műveletek visszaigazolása.
+Hamis
+Egy adott táblán belül egy cellaérték kiválasztásához melyek szükségesek az alábbiak közül?
+oszlopnév
+Az alábbi HBase komponensek közül melyik dolgozza fel az írási kérést?
+régió szerver
+Az alábbiak közül melyek tárolódnak diszken?
+WAL
+Egy adott táblán belül egy cellaérték kiválasztásához melyek szükségesek az alábbiak közül?
+oszlopcsalád
+Egy adott táblán belül egy cellaérték kiválasztásához melyek szükségesek az alábbiak közül?
+időbélyeg
+A Zookeeper pontosan egy példányban fut, és a feladata az írási műveletek visszaigazolása.
+Igaz
+Párosítsd össze az MPP adatelosztási stratégiákat a magyarázatukkal!
+Az adatokat egyenletesen osztja szét.
+Az alábbiak közül melyek jellemzők az MPP adatbázisokra?
+Minden data node tartalmazza a teljes táblát.
+Mire szolgál a Teradata rendszerben a primary index?
+Egy megadott attribútum értéktartományai szerint oszt szét.
+Az MPP adatbázisok relációs adatmodellt valósítanak meg.
+Hamis
+Az alábbiak közül melyek jellemzők az MPP adatbázisokra?
+A distribution key hash-e alapján osztja szét a rekordokat.
+Az alábbiak közül melyek jellemzők az MPP adatbázisokra?
+"Shared nothing" architektúra
+Az alábbiak közül melyek jellemzők az MPP adatbázisokra?
+Az adatokat egyenletesen osztja szét.
+Párosítsa össze a CAP-tétel fogalmait a definíciójukkal!
+Partition tolerance
+
+........ bevezette a relációs adatbázis szabályait.
+EF Codd
+Rendszer tervezés eredménye ...
+az adatbázis logikai modellje.
+
+A FOR XML esetén melyik kulcsszó utal az elemcentrikus megjelenítésre?
+ELEMENTS
+Egy lekérdezés eredménysorait szigorúan monoton módon szeretnénk számozással ellátni. Melyik függvényt használjuk az alábbiak közül?
+ROW_NUMBER()
+Ha egy partíción belül ablakot definiálunk a ROWS, illetve RANGE utasításokkal, akkor az ORDER BY megadása kötelező
+Igaz
+Attribútum-centrikus elrendezéshez a SELECT-beli oszlop alias elé & karakter kell
+Hamis
+Egy felhasználói függvény a SELECT utasításban is meghívható
+Igaz
+Melyik tranzakciókkal kapcsolatos problémát definiálja a következő leírás? Egy nem véglegesített tranzakció adatait olvassuk. Az adat azonban még változhat a tranzakció végrehajtása során
+dirty reads
+Melyik indextípusra jellemző a következő leírás? Az adatok csoportokba vannak rendezve, és egy függvény adja meg, hogy melyik csoportban van az adat
+Hash-alapú indexek
+A GROUP BY ROLLUP (oszlopnév lista) a zárójelben megadott oszlopok minden lehetséges csoportosítását felhasználja
+Hamis
+A B-fák esetén a gyökértől a levelekig vezető utak hossza lehet egymástól eltérő is
+Hamis
+Adattárházak esetén célszerű megfontolni az oszlopalapú tárolást
+Igaz
+Melyik leírás felel meg leginkább a klaszter fogalmának?
+Egy rendszert alkotó csomópontok (szerverek) gyűjteménye
+Melyik jellemző leginkább az újgenerációs adatbázis rendszerekre?
+Nagy számú, alacsony költségű szerver
+Egy kulcs-érték adatbázisban lehet két egyforma nevű (azonosítójú) kulcs
+Hamis
+Melyik adatszerkezethez hasonlítható legjobban a hash?
+Objektum
+A relációs adatbázisokra a függőleges skálázhatóság jellemző
+Igaz
+A dokumentum adatbázisok egyszerűségének az ára, hogy általában nem rendelkeznek beépített lekérdezési lehetőséggel.
+Hamis
+A Cypher algoritmikus lekérdező nyelv
+Hamis
+Milyen típusú NoSQL adatbázist választana, ha csalás felderítést kellene végezni?
+Gráf
+A dokumentum adatbázisok esetén melyik struktúra feleltethető meg a relációs adatbázis tábláinak?
+Gyűjtemény
+
+Mikor jelenthetjük ki axiómaszerűen, hogy jó egy modell?
+Valósághű, teljes, minimális..
+Mi rejlik a következő párbeszédben: "A kapitány a gépháznak: Mennyi? Gépház a kapitánynak: Harminc. Kapitány a gépháznak: Mi harminc? Gépház a kapitánynak: Mi mennyi?"
+Egyik sem..
+Melyek az SQL select parancsának – általunk tanult – fő részei és ezek milyen sorrendben kell kövessék egymást?
+Oszlopnevek, táblanevek, where , group by, having, order by..
+Van egy kárrendező és egy biztosítási-díj megállapító részlegünk. Az egyik arra kíváncsi, hogy egy káreseményben milyen bajok érték az abban résztvevő kocsikat. A másik abban, hogy egy kocsit milyen károk értek és emiatt miként számolja ki a bonus-malus százalékát. Ön hány egyedtípust lát e feladat mögött?
+Hármat..
+Mi rejlik ebben a mondatban: "Az Adatbázisok tárgy oktatója Keszthelyi András"?
+Adat..
+Milyen problémákat fedez fel a következő modellrészletben? VEVŐ(PK:Vevőkód, Vevőnév, Vevőcím), RENDELÉS(PK:Rendelésszám, Rendelésdátum, FK:Vevőkód, Vevőcím)?
+A RENDELÉS-ben tranzitív függés van..
+Mi a paradigma?
+Adott korban és területen általánosan elfogadott/kikényszerített szabályrendszer..
+Mi a modell általános érvényű meghatározása?
+"Pót tárgy", amely meghatározott célra és időtartamra helyettesíti az eredetit..
+Létező adatokat kell módosítanunk egy SQL-adatbáziskezelővel. Ha a kezelőt ehhez a művelethez parancssorból használjuk, mire kell különösen vigyázni?
+A where feltétel select utasításban ellenőrzött megadására..
+Hányadik normálformájú a következő egyed: SZÁMLATÉTEL(Számlaszám+Cikkszám, ..., Tételérték, Egységár)?
+1NF.
+Mi a követendő eljárás az SQL használatakor, ha a lekérdezni kívánt adatok több különböző táblában találhatók meg?
+Célszerű ezen adatokat egy ideiglenes táblába összeszedni..
+Az SQL-ben létezik egy "bigint" numerikus adattípus (8 byte, -2^63..2^63-1, előjel nélkül 0..2^64-1). Ez fogalmi, logikai vagy fizikai szintű tényező?
+Fizikai szintű tényező, mert ez kimondottan "tárolási trükk"..
+Melyik állítás NEM igaz általános érvénnyel a modellre?
+Megegyezik az eredetivel..
+A SZEMÉLY állományban szerepel a nyelvtudásra vonatkozó ismétlődő csoport (Nyelv, Vizsgadátum, Vizsgafok). A tervező három ilyen csoportot alkalmaz. Az alábbi állítások közül melyik a hibás?
+A baj az, hogy csak háromféle nyelvet lehet megadni..
+Nyilvántartást kell vezetnünk a betegellátás finanszírozásáról. Adatokat kell tárolnunk az orvosokról, a betegekről és a társadalmi biztosítottakról, mint lehetséges betegekről. Hány egyedtípust lát e feladat mögött?
+Egyet..
+Mi a különbség a RENDELÉS egyedtípus Rendelésdátum és Vevőazonosító tulajdonságtípusai között?
+A Rendelésdátum leíró TT, míg a Vevőazonosító egy másik ET egyik előfordulására mutat..
+Helyesek-e vagy sem az alábbi megoldások (miért):
+A RENDELÉSTÉTEL-ben a mennyiséget az R-Mennyiség, a SZÁLLÍTÁSTÉTEL-ben az S-Mennyiség névvel illetjük..
+A SZEMÉLY állományban szerepel a nyelvtudásra vonatkozó ismétlődő csoport (Nyelv, Vizsgadátum, Vizsgafok). A tervező három ilyen csoportot alkalmaz. Véleménye szerint ez fogalmi, logikai vagy fizikai szintű szerkezeti megfontolás?
+Logikai..
+Milyen jellegű az Irányítószám ==> Településnév doméjnfügggés?
+Mindkét oldalról gyenge..
+Milyen következtetést vonna le Ön abból, ha a SZEMÉLY egyedet annak Születési dátum tulajdonságán összekapcsolva a RENDELÉS egyedet (Rendelésdátum) kiderülne, hogy mindig Kovács születésnapján rendelnek eperfagyit:
+Lehet, hogy Kovács epres, de két egyedet leírón nem szabad kapcsolni..
+Milyen típusú megszorítás a CHECK(kor > 0) ?
+értékfüggő
+Hathat-e a főellenség városára az, ha a főellenség ID-t megváltoztatom? [S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8]
+Igaz
+{"type":"image","hashedImages":["S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8"],"images":["5.jpg"],"possibleAnswers":["Igaz","Hamis"]}
+Melyik állítás igaz? Egy reláció 3NF-ben van, ha 2NF-ben van, és...
+nincs függés a másodlagos attr között
+Az alábbi táblában hozzászólásokról tárolunk adatokat, melyeket egészükben, sztringként szeretnénk listázni. A táblában atomi állapotban vannak az adatok. [CVdM6SkviC0X8RoL0k4KuP-4VwQu6DhMCXfxDO55IbE]
+Igaz
+{"type":"image","hashedImages":["CVdM6SkviC0X8RoL0k4KuP-4VwQu6DhMCXfxDO55IbE"],"images":["2.jpg"],"possibleAnswers":["Igaz","Hamis"]}
+3NF fennállásának feltétele
+2NF teljesül és a reláció nem tartalmaz függőséget a nem elsődleges attribútumok között
+Melyik állítás igaz?
+Az SQL deklaratív nyelv .
+Az E/K diagramban az egyedhalmazok közötti kapcsolatok csak binárisak lehetnek.
+Igaz.
+3NF fennállásának feltétele
+2NF teljesül és a reláció nem tartalmaz függőséget a nem elsődleges attribútumok között .
+Melyik állítás ír le helyes állapotot?
+Egy táblában egy attribútum idegen kulcs, egy másik táblában pedig kulcs .
+Monogám világban férj és feleség (egy adott pillanatra vonatkozóan)
+egy-egy kapcsolat .
+2NF fennállására igaz
+1NF és reláció minden másodlagos attribútuma teljes függőségben van az összes reláció kulccsal , Ha egy 1 NF relációban a kulcs egyszerű, akkor a reláció teljesíti a 2NF normálformát
+Melyik lekérdezésnél spórolja meg az Oracle a rendezési műveletet, ha nincs expliciten index az oszlopokon?
+SELECT employee_id, last_name FROM employees ORDER BY employee_id;.
+Mi irreleváns az adatblokk méretének kiválasztásakor?
+a CPU sebessége.
+Milyen funkcionális függőség él a táblában, ahol a Név és Erő adja a kulcsot. [Z6UYfI53zchcEZ4rHjp3qkDJy_H-iYfDs9cdkhdx4dk]
+Az Ország funkcionálisan függ a Várostól.
+{"type":"image","hashedImages":["Z6UYfI53zchcEZ4rHjp3qkDJy_H-iYfDs9cdkhdx4dk"],"possibleAnswers":[{"text":"a. A Város funkcionálisan függ az Országtól","selectedByUser":true},{"text":"b. Nincs másik funkcionális függés","selectedByUser":false},{"text":"c. Az Erő funkcionálisan függ a Monogramtól","selectedByUser":false},{"text":"d. Az Ország funkcionálisan függ a Várostól","selectedByUser":false}]}
+Melyik IGAZ a Natural JOIN-ra?
+Nem adjuk meg a táblák közötti kapcsolatot mezőnév szinten.
+Hathat-e a főellenség városára az, ha a főellenség ID-t megváltoztatom? [S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8]
+Igaz.
+{"type":"image","hashedImages":["S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8"],"possibleAnswers":[{"text":"Igaz","selectedByUser":false},{"text":"Hamis","selectedByUser":true}]}
+Gyenge egyedhalmazra igaz
+az egyedhalmaz attribútumai nem elégségesek az egyedek azonosítására , az egyedei azonosításához más egyedhalmaz(ok) kulcsa is kell , E/K-ban a jelölése dupla vonalas téglalappal történik
+Egy felhasználó hogyan optimalizálhatja az általa írt lekérdezést?
+Előbb szűkít, utána JOIN-ol.
+Hogyan írjuk át relációvá a Játékosok egyedhalmazt az alábbi ábra alapján? [S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8]
+Játékosok (jSzám, csNév, név).
+{"type":"image","hashedImages":["S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8"],"possibleAnswers":[{"text":"a. Játékosok (jSzám, csNév, név)","selectedByUser":false},{"text":"b. Játékosok (jatekosID, jSzám, csNév, név)","selectedByUser":false},{"text":"c. Játékosok (jSzám, név)","selectedByUser":true}]}
+Az E/K diagramban egy egyedhalmaznál a kulcs megadása elhagyható.
+Hamis.
+Milyen nyelv az SQL?
+deklaratív.
+A relációs lekérdezési fát átalakíthatjuk hatékonyabbá bizonyos szabályok alkalmazásával. Melyek helyesek az alábbiak közül?
+a vetítést célszerű minél korábban elvégezni , a közös részkifejezéseket célszerű lehetőleg csak egyszer kiszámoln
+Mit rendelünk hozzá a CREATE SESSION joggal a felhasználóhoz?
+a kapcsolatot.
+Logikailag mely kódrészlet azonos az alábbival? [XQfY43hX4tGFju0S7DWYiJ0S5qK2L4VCIqafPAImQxo]
+salary >= 2500 AND salary <= 3000.
+{"type":"image","hashedImages":["XQfY43hX4tGFju0S7DWYiJ0S5qK2L4VCIqafPAImQxo"],"possibleAnswers":[{"text":"a. Egyik sem","selectedByUser":false},{"text":"b. salary > 2500 AND salary < 3000","selectedByUser":false},{"text":"c. salary >= 2500 AND salary <= 3000","selectedByUser":true}]}
+Melyik állítás igaz?
+Egy megadott lekérdezéshez létezhet több, egymással ekvivalens relációs algebrai kifejezés .
+Hogyan történhet az indexelés?
+Mindegyik helyes..
+Melyik állítás igaz?
+A ROWID egy speciális mutató típus, amivel egy sort lehet azonosítani .
+Az adatbázis-kezelő rendszer iránti elvárások a következők:
+Bonyolult lekérdezések megválaszolása , Hálózatos környezetben is tudjon működni
+A full table scan kis tábla esetén drága művelet.
+Hamis.
+Mely mezőket veszi fel a kapcsolótábla az alábbi relációban? [S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8]
+Nincs szükség kapcsolótáblára.
+{"type":"image","hashedImages":["S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8"],"possibleAnswers":[{"text":"a. galériaID, képID","selectedByUser":true},{"text":"b. Nincs szükség kapcsolótáblára","selectedByUser":false},{"text":"c. kapcsoló_ID, galéria_ID, kép_ID","selectedByUser":false},{"text":"d. Csak saját elsődleges kulcsot","selectedByUser":false}]}
+A kérdés az egyed-tulajdonságra vonatkozik! Vegyük alapul a következő adattot: Minta Géza, szül: Budapest, 1979. 01. 23., Árúfeltöltő.. Mi a helyes állítás
+Minta Géza mint munkavállaló az az egyed, amelynek vannak tulajdonságai..
+Melyik a helyes állítás?
+Az egyedeket téglalapokkal, tulajdonságaikat ellipszisekkel, a kapcsolataikat pedig rombuszokkal ábrázoljuk..
+A következő kérdés a táblák közötti kapcsolatra kérdez rá. Az egyik táblában a munkavállaló személyes adatai (Név, születési adatok, TAJ, Adószám, állandó lakcím van), a másik táblában a munkaszerződés adatai. Ez milyen kapcsolat?
+1:1 kapcsolat.
+Egy relációs adatbázis modellje akkor van (...)-ben, ha az adatbázisban változatban megszüntetjük a tranzitív függéseket.
+normál forma.
+Mire vonatkozik az a definíció? (...) egy sora, a szó tehát az egyed szinonimája. Minden (...) egy egyed tulajdonságait tárolja. A táblákban tetszőleges számú rekord helyezhető el, amelyek sorrendje nem kötött."
+Rekord.
+A következő kérdés az adatbázis tervezési szintjeire vonatkozik. A Tankönyvben ezt olvashatjuk: "A középső szinten az úgynevezett (...) használjuk. A (...) közé tartozik a hálós, hierarchikus, az objektum-orientált és a relációs adatmodell.. A (...) helyére mi kerül?
+Lofikai szint.
+Az elsődleges kulcs szerepét betöltő mezőben nem lehet ismétlődés és nem vehet fell null értéket.
+Igaz.
+A modell-alkotás - beleértve az adatmodellezeést - a valóság pontos, kompromisszum-mentes leképezése.
+Hamis.
+Un. N:N tipúsú kapcsolatot is létrehozhatunk - az 1:1 és az 1:N mintájára - közvetlenül két tábla összekapcsolásával.
+Hamis.
+A normalizálás olyan egylépscsős folyamat, amelynek célja a redundanciától mentes adatbázisok létrehozása.
+Hamis.
+
+34. Az irányítószámmal azonosított helységek megyékben helyezkednek el. Minden megyében van több település, és minden település csak egy megyében van. (Eltekintünk a nagyvárosoktól.) Az alábbi állítások közül melyik helyes?
+Az Irányítószám funkcionálisan meghatározza a Megyekódot..
+49. A gyakorló videotékás adatbázisban van olyan DVD, amelyhez nincs megadva a rajta lévő film azonosítója.
+Ez hiba, mert egy videotékában minden DVD-n kell legyen film..
+48. A `select Title from MOVIE where MovieID not in (select MovieID from DVD);` parancs:
+nem listáz semmit, mert vannak NULL jeles DVD-ink is..
+Adott a RENDELÉS a Rendelésszám, -dátum és Számlaszám tételekkel, továbbá a SZÁMLA egyedtípus a Számlaszám és Számlaegyenleg tulajdonságokkal A RENDELÉS egyedtípusbeli Rendelésszám...
+relatív és abszolút szerepe egyaránt azonosító..
+Adatszerű ismeretkezelés esetén, ha a kezelendő adatok mennyisége közepes (4-5 különböző kategóriában több tízezer tétel), a tranzakciók száma is közepes (egy-két tucat művelet naponta)...
+...érdemes adatbázist használnom, a típusos tranzakciókra scripteket készítve..
+39. Legalább hányadik NF alakban van az ismétlődést nem tartalmazó egyedtípus?
+1NF.
+50. A `select MovieID,count(*) from DVD;` parancs:
+listázza a legelső MovieID értékét és az összes DVD darabszámát..
+15. Ha adott helyzetben a NULL jelet "nem értelmezhető" (n.a.) jelentéstartalommal használjuk, az azt jelenti, hogy...
+...a modell nem (eléggé) valósághű..
+Mire következtetne abból, ha a SZEMÉLY egyedtípust annak Születési_dátum tulajdonságán összekapcsolva a RENDELÉS egyedtípussal (Rendelésdátum) kiderülne, hogy mindig Kovács születésnapján rendelnek csokifagyit?
+Leíró tulajdonságtípuson nem szabad kapcsolni..
+Adott a RENDELÉS a Rendelésszám, -dátum és Számlaszám tételekkel, továbbá a SZÁMLA egyedtípus a Számlaszám és Számlaegyenleg tulajdonságokkal A RENDELÉS egyedtípusbeli Rendelésdátum...
+relatív és abszolút szerepe egyaránt leíró..
+45. Az "auto increment" tulajdonságú oszlop esetében:
+az alapértelmezett érték az oszlopban valaha volt legnagyobb érték + 1 (ill. a beállított növekmény)..
+18. A select utasításban a mezőlistában álló csillag azt jelenti, hogy:
+minden oszlopot ki kell listázni..
+Adatszerű ismeretkezelés esetén, ha a kezelendő adatok mennyisége viszonylag szerény (max egy-két ezer tétel), a tranzakciók száma viszonylag alacsony (néhány művelet naponta)...
+...jó megoldás lehet egy táblázatkezelőt használnom..
+14. A homogén 1:N kapcsolat (pl. főnök-beosztott)...
+...mindkét irányban opcionális, különben végtelen sok előfordulást kellene kezelni..
+47. A `select DVDID,Title from DVD,MOVIE where MOVIE.MovieID=DVD.DVDID;` parancs:
+listáz valami marhaságot..
+46. Az "auto increment" tulajdonságú oszlop:
+csak egy lehet egy táblában, és annak az azonosítónak kell lennie..
+17. A videotékás példában a FILM:DVD kapcsolat 1:N és...
+...a DVD felé opcionális, mert tárolnunk kell azon filmek adatait is, amelyek még nincsenek meg nekünk DVD-n, viszont pl. szeretnénk őket megrendelni..
+13. Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Az azonosító az egyedelőfordulás egyértelmű megjelölése..
+35. Adott a Gyerekkód és az Apakód tulajdonság. Ha a gyerek természetes apjáról van szó, akkor:
+az Apakód funkcionálisan függ a Gyerekkódtól..
+42. Az SQL-ben a függvények egymásba ágyazhatók, ha:
+A belső függvény visszatérési értéke megfelel a külső függvény adott pozíción várt bemenő adatának (típus, méret vonatkozásában)..
+20. Egy tábla M nevű oszlopában a hiányzó értékekre vonatkozó feltételt a where záradékban a következőképpen kell formailag helyesen használni:
+where M is NULL.
+40. Legalább hányadik normálformában van az ismétlődést nem tartalmazó egyedtípus, ha egyszerű kulcsa van?
+2NF.
+44. Táblák törlése (drop table) esetén a fölöslegessé vált táblákat:
+az alárendelt táblával kell kezdeni..
+38. Hányadik normálformában van a RENDELÉS (Rendelésszám, R-dátum, ..., Cikkszám, Rendelt-mennyiség) egyedtípus (azonosító a Rendelésszám)?
+0NF.
+37. Rendeléseink általában egytételesek. Ezer megrendelés között csak egy van, amely több cikkre is vonatkozik. Mi a Rendelésszám és a Cikkszám viszonya?
+A két tétel egymástól független..
+Melyik NEM tartozik a jó modell ismérvei közé?
+Maximális.
+16. Az SQL select utasítás különböző részeinek a helyes sorrendje:
+SELECT kulcsszó, oszloplista, forrástáblák, where feltétel, csoportosítás valami szerint, szűrés a csoportfüggvény értékeire, rendezés valami szerint..
+Adatszerű ismeretkezelés esetén, ha a kezelendő adatok mennyisége nem túl nagy, a tranzakciók száma közepes, viszont a felhasználók saját maguk végzik a műveleteket (mint pl különféle igénylések leadása)...
+...muszáj elkészíteni egy menüvezérelt információs rendszert..
+33. Vállalatunknál a rendelésszám és a számlaszám egyaránt kilencjegyű szám. Ezért...
+nem tartozhatnak azonos értéktartományba, mert különböző a jelentésük..
+26. Lekérdezéseknél az eredménylistát rendezni lehet
+az order by részben megadott oszlopok szerint növekvő (ASC) vagy csökkenő (DESC) sorrendbe..
+10. Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Az elsődleges kulcs és az idegen kulcs értéke megegyezik..
+12. Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Az azonosító csak sorszám lehet..
+A számla és az azon lévő tételsorok közötti viszony...
+...mindkét oldalról kötelező..
+28. A "Duplicate entry '7' for key 'PRIMARY'" hibaüzenet...
+......olyankor fordul elő, ha már létező azonosítóértékkel szeretnénk újabb sort fölvenni egy táblába..
+43. Egymással kapcsolatban lévő táblák létrehozásakor (pl. MOVIE és DVD):
+az idegen kulcsot csak akkor tudom definiálni, ha a fölérendelt tábla már létezik, és csak az abban szereplő PK-nak megfelelő adattípussal és -mérettel..
+27. A "Duplicate entry '7' for key 'PRIMARY'" hibaüzenet...
+...olyankor fordul elő, ha már létező azonosítóértékkel szeretnénk újabb sort fölvenni egy táblába..
+11. Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Leíró tulajdonságtípuson nem szabad kapcsolni..
+31. A meta-adatbázis nem más, mint:
+az ismeretekről szóló ismeretek tárháza..
+21. Több különböző tábla közös lekérdezésénél...
+...az érintett táblák közötti minden kapcsolatra ki kell kötni a megfelelő PK-FK (azonosító és idegen kulcs) pár egyenlőségét..
+32. A "relációs adatbázis" kifejezés onnan ered, hogy:
+az egyedtípusokat táblákkal tükrözzük..
+23. Listázzuk ki a MOVIE táblából azon filmeket, amelyek hossza nagyobb, mint az összes film hosszának átlaga! A helyes megoldás:
+select * from MOVIE where Length&gt;(select avg(Length) from MOVIE);.
+25. Lekérdezéseknél a % (százalékjel)
+akárhány és akármilyen karaktert helyettesít egy szövegkonstansban..
+A modell akkor tekinthető jónak általános értelemben, ha teljesülnek rá az alábbi követelmények:
+Valósághű, teljes, minimális.
+29. "A rózsa ára 50 Ft." Melyik adatdimenzió hiányzik a közlésből?
+A generikus alany..
+22. Számoljuk meg a RENTAL táblában, hogy melyik tag-azonosítóhoz hány darab kölcsönzés tartozik! A helyes megoldás:
+select MemberID,count(*) as DB from RENTAL group by MemberID;.
+24. Az allekérdezés...
+...egy olyan zárójelben lévő lekérdezés, amelyik egy másik lekédezésbe van beágyazva..
+36. Adott a Gyerekkód és az Apakód tulajdonság. Ha egy gyereknek bármilyen okból (pl. válás) több papája lehet, akkor:
+a Gyerekkód és az Apakód kölcsönösen függetlenek egymástól..
+41. Hányadik normálformájú a SZÁMLATÉTEL (Számlaszám+Cikkszám, ..., Tételérték, Egységár) egyedtípus (PK a Számlaszám+Cikkszám)?
+1NF.
+19. Két tábla Descartes-szorzata úgy készül, hogy:
+vesszük mindkét tábla oszlopait, majd az egyik tábla minden egyes sorával párba állítjuk a másik tábla minden sorát..
+30. "A virág ára 50 Ft." Melyik adatdimenzió hiányzik a közlésből?
+A specifikus alany..
+Atominak nevezzük az egyedtípust, ha...
+...több kulcsjelöltet tartalmaz, de nem bontható le egymástól független egyedtípusra..
+A statisztika a modellalkotásban...
+...a hipotézisek ellenőrzésének egy lehetséges eszköze..
+Az E egyedtípus 5NF-ben van...
+...akkor és csak akkor, ha a kulcsjelöltjei között nincs kapcsolásfüggés..
+Melyik az igaz állítás az alábbiak közül? A származtatott tulajdonságokat...
+...mindenképpen kell modellezni, tárolni nem feltétlenül..
+Melyik a hamis állítás az alábbiak közül?
+Ha egy egyedben A  B és A  C, akkor {B, C}  A..
+Egy egyedtípus akkor és csak akkor áll visszamutató viszonyban önmagával, ha...
+...azonosítója funkcionálisan meghatározza saját szerepnevét..
+Ha egy egyedtípus egy másik egyedtípus azonosítójának több szerepnevét tartalmazza...
+...akkor közöttük többszörös inhomogén kapcsolat van..
+Melyik hamis az alábbi kijelentések közül?
+Minden kétoszlopos egyedtípus 5NF alakú..
+Melyik a hamis állítás az alábbiak közül, ha az egyedtípusban kulcstörő függés van?
+Az ilyen egyedtípus mindig függetlenül karbantartható egyedekre bontható..
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A =&gt; B és A =&gt; C többértékű függéspáros..
+Az egyedtípus akkor (és csak akkor) van Boyce-Codd normálformában, ha...
+...minden meghatározó tulajdonságtípusa kulcsjelölt is..
+Az E egyedtípus 4NF alakú...
+...ha az abban lévő bármely többértékű függés egyben funkcionális függés is..
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A =&gt; B és A =&gt; C többértékű függéspáros..
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A =&gt; B és A =&gt; C többértékű függéspáros.
+Az egyedtípus akkor (és csak akkor) van Boyce-Codd normálformában, ha...
+...minden meghatározó tulajdonságtípusa kulcsjelölt is.
+Az E egyedtípus 4NF alakú...
+...ha az abban lévő bármely többértékű függés egyben funkcionális függés is.
+Atominak nevezzük az egyedtípust, ha...
+...több kulcsjelöltet tartalmaz, de nem bontható le egymástól független egyedtípusra.
+Melyik az igaz állítás az alábbiak közül? A származtatott tulajdonságokat...
+...mindenképpen kell modellezni, tárolni nem feltétlenül.
+Melyik hamis az alábbi kijelentések közül?
+Minden kétoszlopos egyedtípus 5NF alakú.
+Az E egyedtípus 5NF-ben van...
+...akkor és csak akkor, ha a kulcsjelöltjei között nincs kapcsolásfüggés.
+A statisztika a modellalkotásban...
+...a hipotézisek ellenőrzésének egy lehetséges eszköze.
+Melyik a hamis állítás az alábbiak közül?
+Ha egy egyedben A  B és A  C, akkor {B, C}  A.
+Ha egy egyedtípus egy másik egyedtípus azonosítójának több szerepnevét tartalmazza...
+...akkor közöttük többszörös inhomogén kapcsolat van.
+Egy egyedtípus akkor és csak akkor áll visszamutató viszonyban önmagával, ha...
+...azonosítója funkcionálisan meghatározza saját szerepnevét.
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A =&gt; B és A =&gt; C többértékű függéspáros.
+Melyik a hamis állítás az alábbiak közül, ha az egyedtípusban kulcstörő függés van?
+Az ilyen egyedtípus mindig függetlenül karbantartható egyedekre bontható.
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A ==> B és A ==> C többértékű függéspáros..
+Melyik a hamis állítás az alábbiak közül?
+Ha egy egyedben A --> B és A --> C, akkor {B, C} --> A..
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A ==> B és A ==> C többértékű függéspáros..
+A `select MovieID,count(*) from DVD;` parancs:
+listázza a legelső MovieID értékét és az összes DVD darabszámát.
+Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Az azonosító csak sorszám lehet.
+Az egyedtípus tulajdonságtípusainak a kiterjedése:
+Intenzió
+A digitális/virtuális számegyenes:
+nem folytonos és nem végtelen
+Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Az azonosító az egyedelőfordulás egyértelmű megjelölése.
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A ==> B és A ==> C többértékű függéspáros.
+A meta-adatbázis nem más, mint:
+az ismeretekről szóló ismeretek tárháza.
+Az allekérdezés...
+...egy olyan zárójelben lévő lekérdezés, amelyik egy másik lekédezésbe van beágyazva.
+Az SQL-ben a függvények egymásba ágyazhatók, ha:
+A belső függvény visszatérési értéke megfelel a külső függvény adott pozíción várt bemenő adatának (típus, méret vonatkozásában).
+Listázzuk ki a MOVIE táblából azon filmeket, amelyek hossza nagyobb, mint az összes film hosszának átlaga! A helyes megoldás:
+select * from MOVIE where Length&amp;amp;gt;(select avg(Length) from MOVIE);
+Táblák törlése (drop table) esetén a fölöslegessé vált táblákat:
+az alárendelt táblával kell kezdeni.
+Az SQL select utasítás különböző részeinek a helyes sorrendje:
+SELECT kulcsszó, oszloplista, forrástáblák, where feltétel, csoportosítás valami szerint, szűrés a csoportfüggvény értékeire, rendezés valami szerint.
+Az olyan csupakulcs reláció, amelynek a kulcsa elemi, az:
+Unáris
+Két tábla Descartes-szorzata úgy készül, hogy:
+vesszük mindkét tábla oszlopait, majd az egyik tábla minden egyes sorával párba állítjuk a másik tábla minden sorát.
+Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Az elsődleges kulcs és az idegen kulcs értéke megegyezik.
+A videotékás példában a FILM:DVD kapcsolat 1:N és...
+...a DVD felé opcionális, mert tárolnunk kell azon filmek adatait is, amelyek még nincsenek meg nekünk DVD-n, viszont pl. szeretnénk őket megrendelni.
+Több különböző tábla közös lekérdezésénél...
+...az érintett táblák közötti minden kapcsolatra ki kell kötni a megfelelő PK-FK (azonosító és idegen kulcs) pár egyenlőségét.
+Rendeléseink általában egytételesek. Ezer megrendelés között csak egy van, amely több cikkre is vonatkozik. Mi a Rendelésszám és a Cikkszám viszonya?
+A két tétel egymástól független.
+Hányadik normálformájú a SZÁMLATÉTEL (Számlaszám+Cikkszám, ..., Tételérték, Egységár) egyedtípus (PK a Számlaszám+Cikkszám)?
+1NF
+Amikor több azonos lényegű jelenségnek a tulajdonságait egy közös egyedben egyesítjük, azt ... nevezzük.
+Aggregálásnak
+A FELMÉRÉS ( Felmérés az., ..., Személy az., Életkor_év) egyedtípus:
+Rosszul tervezett (etikailag), mert felmérések esetében a felmérést kitöltő konkrét személyek kilétét nem tároljuk.
+Legalább hányadik NF alakban van az ismétlődést nem tartalmazó egyedtípus?
+1NF
+Az irányítószámmal azonosított helységek megyékben helyezkednek el. Minden megyében van több település, és minden település csak egy megyében van. (Eltekintünk a nagyvárosoktól.) Az alábbi állítások közül melyik helyes?
+Az Irányítószám funkcionálisan meghatározza a Megyekódot.
+Adott a RENDELÉS a Rendelésszám, -dátum és Számlaszám tételekkel, továbbá a SZÁMLA egyedtípus a Számlaszám és Számlaegyenleg tulajdonságokkal. A RENDELÉS egyedtípusbeli Rendelésszám...
+relatív és abszolút szerepe egyaránt azonosító.
+A SZEMÉLY (Személy az, ..., Lakcím), LAKCÍMVÁLTOZÁS ( Személy az+Dátum , Régi lakcím, Új lakcím) modellrészlet:
+Rosszul tervezett, mert a Régi lakcím funkcionálisan részlegesen függ a Személyazonosítótól.
+Számoljuk meg a RENTAL táblában, hogy melyik tag-azonosítóhoz hány darab kölcsönzés tartozik! A helyes megoldás:
+select MemberID,count(*) as DB from RENTAL group by MemberID;
+"A virág ára 50 Ft." Melyik adatdimenzió hiányzik a közlésből?
+A specifikus alany.
+Ha adott helyzetben a NULL jelet "nem értelmezhető" (n.a.) jelentéstartalommal használjuk, az azt jelenti, hogy...
+...a modell nem (eléggé) valósághű.
+A számla és az azon lévő tételsorok közötti viszony...
+...mindkét oldalról kötelező.
+Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Leíró tulajdonságtípuson nem szabad kapcsolni.
+Adott a Gyerekkód és az Apakód tulajdonság. Ha egy gyereknek bármilyen okból (pl. válás) több papája lehet, akkor:
+a Gyerekkód és az Apakód kölcsönösen függetlenek egymástól.
+Egy tábla M nevű oszlopában a hiányzó értékekre vonatkozó feltételt a where záradékban a következőképpen kell formailag helyesen használni:
+where M is NULL
+Egymással kapcsolatban lévő táblák létrehozásakor (pl. MOVIE és DVD):
+az idegen kulcsot csak akkor tudom definiálni, ha a fölérendelt tábla már létezik, és csak az abban szereplő PK-nak megfelelő adattípussal és -mérettel.
+Az "auto increment" tulajdonságú oszlop esetében:
+az alapértelmezett érték az oszlopban valaha volt legnagyobb érték + 1 (ill. a beállított növekmény).
+Adatszerű ismeretkezelés esetén, ha a kezelendő adatok mennyisége viszonylag szerény (max. egy-két ezer tétel), a tranzakciók száma viszonylag alacsony (néhány művelet naponta)...
+...jó megoldás lehet egy táblázatkezelőt használnom.
+Lekérdezéseknél az eredménylistát rendezni lehet
+az order by részben megadott oszlopok szerint növekvő (ASC) vagy csökkenő (DESC) sorrendbe.
+Az EGYSÉGÁR ( Cikkszám + Érvényesség kezdete , Egységár, Érvényesség vége) egyedtípus:
+Rosszul tervezett, mert karbantartási problémákat vet föl.
+Az "auto increment" tulajdonságú oszlop:
+csak egy lehet egy táblában, és annak az azonosítónak kell lennie.
+Az olyan technikai egyedtípus, aminek egyetlen egy előfordulása van és kulcsa mesterséges:
+Szinguláris
+Melyik NEM tartozik a jó modell ismérvei közé?
+Maximális
+A modell akkor tekinthető jónak általános értelemben, ha teljesülnek rá az alábbi követelmények:
+Valósághű, teljes, minimális
+Melyik a hamis állítás az alábbiak közül?
+Ha egy egyedben A --> B és A --> C, akkor {B, C} --> A.
+Lekérdezéseknél a % (százalékjel)
+akárhány és akármilyen karaktert helyettesít egy szövegkonstansban.
+Adott a RENDELÉS a Rendelésszám, -dátum és Számlaszám tételekkel, továbbá a SZÁMLA egyedtípus a Számlaszám és Számlaegyenleg tulajdonságokkal. A RENDELÉS egyedtípusbeli Rendelésdátum...
+relatív és abszolút szerepe egyaránt leíró.
+Az egyedtípus előfordulásainak a kiterjedése:
+Extenzió
+Adatszerű ismeretkezelés esetén, ha a kezelendő adatok mennyisége közepes (4-5 különböző kategóriában több tízezer tétel), a tranzakciók száma is közepes (egy-két tucat művelet naponta)...
+...érdemes adatbázist használnom, a típusos tranzakciókra scripteket készítve.
+A `select DVDID,Title from DVD,MOVIE where MOVIE.MovieID=DVD.DVDID;` parancs:
+listáz valami marhaságot.
+Vállalatunknál a rendelésszám és a számlaszám egyaránt kilencjegyű szám. Ezért...
+nem tartozhatnak azonos értéktartományba, mert különböző a jelentésük.
+Hányadik normálformában van a RENDELÉS (Rendelésszám, R-dátum, ..., Cikkszám, Rendelt-mennyiség) egyedtípus (azonosító a Rendelésszám)?
+0NF
+Mire következtetne abból, ha a SZEMÉLY egyedtípust annak Születési_dátum tulajdonságán összekapcsolva a RENDELÉS egyedtípussal (Rendelésdátum) kiderülne, hogy mindig Kovács születésnapján rendelnek csokifagyit?
+Leíró tulajdonságtípuson nem szabad kapcsolni.
+Legalább hányadik normálformában van az ismétlődést nem tartalmazó egyedtípus, ha egyszerű kulcsa van?
+2NF
+A szinttévesztés olyan hibakategória, amikor...
+...a tervező bevett szokásai, a kezelő korlátai vagy egyszerűen a fogalmi szint ismeretének hiánya miatt eleve logikai szintű megoldásokat alkalmaz.
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A ==> B és A ==> C többértékű függéspáros (B és C is tartományfügg A-tól)..
+A homogén 1:N kapcsolat (pl. főnök-beosztott)...
+...mindkét irányban opcionális, különben végtelen sok előfordulást kellene kezelni..
+Az "auto increment" tulajdonságú oszlop esetében:
+az alapértelmezett érték az oszlopban valaha volt legnagyobb érték + 1 (ill. a beállított növekmény)..
+"A virág ára 50 Ft." Melyik adatdimenzió hiányzik a közlésből?
+A specifikus alany..
+Két tábla Descartes-szorzata úgy készül, hogy:
+vesszük mindkét tábla oszlopait, majd az egyik tábla minden egyes sorával párba állítjuk a másik tábla minden sorát..
+Az egyedtípus tulajdonságtípusainak a kiterjedése:
+Intenzió.
+Legalább hányadik normálformában van az ismétlődést nem tartalmazó egyedtípus, ha egyszerű kulcsa van?
+2NF.
+Adott a Gyerekkód és az Apakód tulajdonság. Ha a gyerek természetes apjáról van szó, akkor:
+az Apakód funkcionálisan függ a Gyerekkódtól..
+Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Leíró tulajdonságtípuson nem szabad kapcsolni..
+A meta-adatbázis nem más, mint:
+az ismeretekről szóló ismeretek tárháza..
+Az olyan technikai egyedtípus, aminek egyetlen egy előfordulása van és kulcsa mesterséges:
+Szinguláris.
+Vállalatunknál a rendelésszám és a számlaszám egyaránt kilencjegyű szám. Ezért...
+nem tartozhatnak azonos értéktartományba, mert különböző a jelentésük..
+Az olyan csupakulcs reláció, amelynek a kulcsa elemi, az:
+Unáris.
+Az egyedtípus előfordulásainak a kiterjedése:
+Extenzió.
+
+
+
+C++ osztályokhoz automatikusan is generálódhat copy constructor, ami minden adattag copy constructor-át megpróbálja meghívni.
+Igaz
+Az alábbi Auto osztály esetében válassza ki a helyes választ: class Auto { public: Auto(Owner* op); getOwner(); protected: setOwner(Owner* op); private: Owner* owner; };
+setOwner metódust az Auto osztályból bármilyen jogosultsággal származtatott osztályból meg lehet hívni Helyes válasz.
+C++ standard template library kérdés: Ha a gyors beszúrás fontos, inkább std::list-et használjunk, mint std::vector osztályt. Ha viszont keresni szeretnénk, az std::set jobb, mint az std::list vagy std::vector - igaz, vagy hamis?
+Igaz
+Az alábbi kód lefordul - igaz, vagy hamis? [T_KGhXlF2HE_0uZ0TuRS-1Gq3TvKcHyYUMuV7xi7qHg]
+Hamis
+{"type":"image","hashedImages":["T_KGhXlF2HE_0uZ0TuRS-1Gq3TvKcHyYUMuV7xi7qHg"],"possibleAnswers":[{"text":"Igaz","selectedByUser":true},{"text":"Hamis","selectedByUser":false}]}
+Setter metódusok láncolt hívásához célszerű az objektumra hivatkozó referenciát visszaadni, ezt pedig a 'this' visszaadásával lehet elérni.
+Hamis
+C++ structok és osztályok között az a különbség, hogy a structok esetében a tagváltozók / tagfüggvények alapból public, míg osztályok esetében alapból private láthatóságúak.
+Igaz
+Az alábbi kód lefordul - igaz, vagy hamis? [0zKgBJfiNhAh6OpI4w_uFkT2SUQpFN3CMGr7Rs01sH0] [iczDUkuwFxk_HTqm3x3ZYR7MHRQ3dICNORK7Dwmtsmg]
+Igaz
+{"type":"image","hashedImages":["0zKgBJfiNhAh6OpI4w_uFkT2SUQpFN3CMGr7Rs01sH0","iczDUkuwFxk_HTqm3x3ZYR7MHRQ3dICNORK7Dwmtsmg"],"possibleAnswers":[{"text":"Igaz","selectedByUser":true},{"text":"Hamis","selectedByUser":false}]}
+Alább látható a következő program: [7CgPt4XUVJUNOi0xKZc2PlkYbEq-RpMRwYziTZorT3c] Mit tapasztal a program futása során? Szükséges dynamic_cast, hogy a program a téglalap területét írja ki?
+A program kiírja standard outputra a téglalap területét (30), nincs szükség dynamic_cast-ra.
+{"type":"image","hashedImages":["7CgPt4XUVJUNOi0xKZc2PlkYbEq-RpMRwYziTZorT3c"],"possibleAnswers":[{"text":"a. A program kiírja standard outputra a téglalap területét (30), nincs szükség dynamic_cast-ra.","selectedByUser":true},{"text":"b. A program kiírja standard outputra a téglalap területét (30), de a megfelelő memóriakezelés miatt szükséges lenne dynamic_cast.","selectedByUser":false},{"text":"c. A program kiírja standard outputra, hogy \"AREA 0\" és a 0 értéket, szükséges dynamic_cast.","selectedByUser":false},{"text":"d. A program kiírja standard outputra a téglalap területét (30) és azt, hogy \"AREA 0\", szükséges dynamic_cast.","selectedByUser":false},{"text":"e. A program futás során egy std::bad_cast kivételt dob, szükséges dynamic_cast.","selectedByUser":false}]}

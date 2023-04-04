@@ -1,0 +1,117 @@
+/*minta ZH 2 */
+--1. eljárás készítése
+create or replace procedure TanOszt (kurzus int) is
+kurzus_neve varchar2(50);
+atlag number;
+hallgatok_db number;
+Begin
+  select nev into kurzus_neve from kurzusok where kurzus=kurzusID;
+  select round(avg(erdemjegy),2) into atlag 
+  from leckekonyv where kurzus=kurzusID and erdemjegy >1;
+  select count(*) into hallgatok_db from leckekonyv
+  where kurzus=kurzusID and erdemjegy >1;
+  If kurzus_neve is not null then 
+    dbms_output.put_line('Kurzusnév: ' || kurzus_neve || ', átlag: ' || atlag
+    || ', sikeres vizsgát tett hallgatók száma: ' || hallgatok_db);
+  Else dbms_output.put_line('Nem létezik a(z) ' || kurzus || ' kurzus');
+  End if;
+End;
+Set serveroutput on;
+Begin TanOszt(20); End;
+
+-- 2. trigger készítése
+Create or replace trigger felvetel before insert on leckekonyv
+for each row
+Declare 
+maxletszam number(2);
+letszam number(2);
+terem number(2);
+Begin
+  select kapacitas into maxletszam from termek natural join kurzusok
+  where kurzusID = :new.kurzusid;
+  select count(neptunID) into letszam from leckekonyv
+  where kurzusID = :new.kurzusid;
+  select teremId into terem from termek natural join kurzusok
+  where kurzusID = :new.kurzusid;
+  If maxletszam > letszam then dbms_output.put_line('Sikeres tárfelvétel! 
+    A kapacitás a felvétel előtt: ' || maxletszam || '/' || letszam);
+  Else Update termek set kapacitas = kapacitas + 5 where teremId = terem;
+    dbms_output.put_line('Sikeres tárgyfelvétel! Betelt a terem, de 
+    módosítottuk a férőhelyek számát 5 fővel.');
+  End if;
+End;
+savepoint kiindulas;
+  insert into leckekonyv values (201, 'OEX0O6', 392, 84, NULL, NULL);
+  select * from leckekonyv where LECKEKONYVID in (200, 201);  
+rollback to kiindulas;
+select * from leckekonyv where LECKEKONYVID in (200, 201);
+
+-- 3.a) átlagnál több kreditű hallgató(k)
+select h.neptunid, vnev||' '||knev Hallgató, összkredit from hallgatok h
+inner join (select neptunId, sum(kredit) összkredit from kurzusok
+            inner join leckekonyv using (kurzusId)
+            where erdemjegy >=2 group by neptunId) okr
+on h.neptunid = okr.neptunid
+where összkredit > (select (avg(kredit)) from kurzusok Natural join leckekonyv
+                    where erdemjegy >=2)
+order by összkredit;
+
+-- 3.b) kurzustalan oktató
+select o.oktatoid, vnev||' '||knev oktató from oktatok o
+inner join (select oktatoid from oktatok 
+            minus select OKTATOID from LECKEKONYV) s 
+on o.oktatoid = s.oktatoid; 
+
+select o.oktatoid, vnev||' '||knev oktató from oktatok o
+left join LECKEKONYV l on o.oktatoid = l.oktatoid 
+where l.oktatoid is null;
+
+-- 3.c)
+select o.oktatoid, vnev||' '||knev oktató,
+(select count(neptunid) from leckekonyv where oktatoid=o.oktatoid) tanitvanyok
+--,(select max(fizetes) maxfizu from oktatok)
+from oktatok o
+where fizetes = (select max(fizetes) maxfizu from oktatok);
+
+-- 3.d)
+select oktatoid, vnev||' '||knev oktató, fizetes, tárgyak_db
+from oktatok natural join
+(select count(*) tárgyak_db from leckekonyv group by oktatoid
+ having avg(ertekeles)>=3) 
+Fetch first 5 rows only;
+
+--3.e)
+--neptun kódját, teljes nevét, e-mail címét, azt, hogy hány db tárgyat vett fel, 
+--mennyi a tanulmányi átlaga és hány kreditet gyűjtött eddig.
+select neptunid, vnev||' '||knev Hallgató, email, tárgy_db, átlag, kreditek
+from HALLGATOK inner join
+ (select neptunid, count(neptunid) tárgy_db, round(avg(erdemjegy),2) átlag,
+  sum(kredit) kreditek from leckekonyv l
+  inner join kurzusok k on k.kurzusid=l.kurzusid
+  where erdemjegy >1 group by neptunid) 
+using(neptunid) 
+order by hallgató;
+
+--3.f) Adjon a 200.000 Ft alatt kereső oktatónak 15%-os fizetésemelést! 
+update oktatok set fizetes= fizetes * 1.15 where FIZETES < 200000;
+
+-- feladat tárolt függvényre:
+-- Irassuk ki, hogy egy adott részlegnél mennyi a maximális fizetés! 
+-- használjuk a kapott függvényt!
+CREATE FUNCTION max_fizu(depid number) RETURN number IS
+maxfizu number;
+BEGIN
+  select max(salary) into maxfizu from employees where department_id=depid; 
+  RETURN maxfizu;
+END max_fizu;
+-- felhasználás lekérdezésben:
+Select DEPARTMENT_ID, DEPARTMENT_NAME, MAX_FIZU(50) from DEPARTMENTS where DEPARTMENT_ID=50;
+--select * from employees where DEPARTMENT_ID=50 order by salary desc;
+-- PL/SQL blokkban
+DECLARE
+maxfizu number;
+begin
+  maxfizu := max_fizu(50);
+  DBMS_OUTPUT.put_line('A legnagyobb fizetés az 50-es részlegnél: ' || maxfizu);
+end; 
+
