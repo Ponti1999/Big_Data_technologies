@@ -1,0 +1,1564 @@
+Párosítsd össze az MPP adatelosztási stratégiákat a magyarázatukkal!
+1 válasz Választás... Az adatokat egyenletesen osztja szét. Minden data node tartalmazza a teljes táblát. A distribution key hash-e alapján osztja szét a rekordokat. Egy megadott attribútum értéktartományai szerint oszt szét.
+Az alábbiak közül melyek jellemzők az MPP adatbázisokra?
+Scale out
+Az alábbiak közül melyik adatelosztási stratégiát támogatja a Teradata?
+Hash algoritmus
+Mire szolgál a Teradata rendszerben a primary index?
+Ennek alapján történik a rekordok szétosztása az AMP-ok között.
+Az MPP adatbázisok relációs adatmodellt valósítanak meg.
+Igaz
+Az alábbiak közül melyek jellemzők az MPP adatbázisokra?
+Egy megadott attribútum értéktartományai szerint oszt szét.
+Az alábbiak közül melyik adatelosztási stratégiát támogatja a Teradata?
+A distribution key hash-e alapján osztja szét a rekordokat.
+Mire szolgál a Teradata rendszerben a primary index?
+Minden data node tartalmazza a teljes táblát.
+Párosítsa össze a CAP-tétel fogalmait a definíciójukkal!
+1 válasz Választás... Availability Partition tolerance Consistency
+A NoSQL adatbázisok mindig ACID-ot garantálnak a tranzakciók végrehajtása során.
+Hamis
+Hogyan nevezzük azt az elosztási stílust, amikor ugyanaz az adat több node-on is megtalálható?
+Replikáció
+Az alábbi feladatok közül melyekre érdemes kulcs-érték tárolót használni.
+Cache-elés
+Az alábbiak közül melyik NEM NoSQL adatbázistípus?
+Tömb tároló
+Az alábbi feladatok közül melyekre érdemes kulcs-érték tárolót használni.
+Munkamenet adatainak tárolása
+Párosítsa össze a CAP-tétel fogalmait a definíciójukkal!
+Availability
+NoSQL adatbázisok tervezésénél elsősorban a tipikus felhasználásból (gyakran futtatott lekérdezések, DML műveletek) indulunk ki.
+Igaz
+NoSQL adatbázisok tervezésénél a redundancia elkerülésére törekszünk elsősorban.
+Hamis
+Dokumentumtárolóra való áttéréskor az egy-több kapcsolatokat dokumentum beágyazással alakítjuk át.
+Igaz
+Gráfadatbázisra való áttéréskor a több-több kapcsolatokat nem tudjuk kapcsolattal kifejezni, ha a kapcsolótáblában voltak extra attribútumok.
+Hamis
+Gráfadatbázisban az alacsony szelektivitású attribútumokat lehetséges címkével helyettesíteni.
+Igaz
+Az alábbiak közül melyek tárolódnak diszken?
+HFile
+Egy adott táblán belül egy cellaérték kiválasztásához melyek szükségesek az alábbiak közül?
+sor ID
+A Memstore feladata az, hogy tárolja a memóriában a legutóbbi írási kéréseket, amíg kiírásra nem kerül egy HFile-ba.
+Igaz
+A Zookeeper pontosan egy példányban fut, és a feladata az írási műveletek visszaigazolása.
+Hamis
+Egy adott táblán belül egy cellaérték kiválasztásához melyek szükségesek az alábbiak közül?
+oszlopnév
+Az alábbi HBase komponensek közül melyik dolgozza fel az írási kérést?
+régió szerver
+Az alábbiak közül melyek tárolódnak diszken?
+WAL
+Egy adott táblán belül egy cellaérték kiválasztásához melyek szükségesek az alábbiak közül?
+oszlopcsalád
+Egy adott táblán belül egy cellaérték kiválasztásához melyek szükségesek az alábbiak közül?
+időbélyeg
+A Zookeeper pontosan egy példányban fut, és a feladata az írási műveletek visszaigazolása.
+Igaz
+Párosítsd össze az MPP adatelosztási stratégiákat a magyarázatukkal!
+Az adatokat egyenletesen osztja szét.
+Az alábbiak közül melyek jellemzők az MPP adatbázisokra?
+Minden data node tartalmazza a teljes táblát.
+Mire szolgál a Teradata rendszerben a primary index?
+Egy megadott attribútum értéktartományai szerint oszt szét.
+Az MPP adatbázisok relációs adatmodellt valósítanak meg.
+Hamis
+Az alábbiak közül melyek jellemzők az MPP adatbázisokra?
+A distribution key hash-e alapján osztja szét a rekordokat.
+Az alábbiak közül melyek jellemzők az MPP adatbázisokra?
+"Shared nothing" architektúra
+Az alábbiak közül melyek jellemzők az MPP adatbázisokra?
+Az adatokat egyenletesen osztja szét.
+Párosítsa össze a CAP-tétel fogalmait a definíciójukkal!
+Partition tolerance
+
+........ bevezette a relációs adatbázis szabályait.
+EF Codd
+Rendszer tervezés eredménye ...
+az adatbázis logikai modellje.
+
+A FOR XML esetén melyik kulcsszó utal az elemcentrikus megjelenítésre?
+ELEMENTS
+Egy lekérdezés eredménysorait szigorúan monoton módon szeretnénk számozással ellátni. Melyik függvényt használjuk az alábbiak közül?
+ROW_NUMBER()
+Ha egy partíción belül ablakot definiálunk a ROWS, illetve RANGE utasításokkal, akkor az ORDER BY megadása kötelező
+Igaz
+Attribútum-centrikus elrendezéshez a SELECT-beli oszlop alias elé & karakter kell
+Hamis
+Egy felhasználói függvény a SELECT utasításban is meghívható
+Igaz
+Melyik tranzakciókkal kapcsolatos problémát definiálja a következő leírás? Egy nem véglegesített tranzakció adatait olvassuk. Az adat azonban még változhat a tranzakció végrehajtása során
+dirty reads
+Melyik indextípusra jellemző a következő leírás? Az adatok csoportokba vannak rendezve, és egy függvény adja meg, hogy melyik csoportban van az adat
+Hash-alapú indexek
+A GROUP BY ROLLUP (oszlopnév lista) a zárójelben megadott oszlopok minden lehetséges csoportosítását felhasználja
+Hamis
+A B-fák esetén a gyökértől a levelekig vezető utak hossza lehet egymástól eltérő is
+Hamis
+Adattárházak esetén célszerű megfontolni az oszlopalapú tárolást
+Igaz
+Melyik leírás felel meg leginkább a klaszter fogalmának?
+Egy rendszert alkotó csomópontok (szerverek) gyűjteménye
+Melyik jellemző leginkább az újgenerációs adatbázis rendszerekre?
+Nagy számú, alacsony költségű szerver
+Egy kulcs-érték adatbázisban lehet két egyforma nevű (azonosítójú) kulcs
+Hamis
+Melyik adatszerkezethez hasonlítható legjobban a hash?
+Objektum
+A relációs adatbázisokra a függőleges skálázhatóság jellemző
+Igaz
+A dokumentum adatbázisok egyszerűségének az ára, hogy általában nem rendelkeznek beépített lekérdezési lehetőséggel.
+Hamis
+A Cypher algoritmikus lekérdező nyelv
+Hamis
+Milyen típusú NoSQL adatbázist választana, ha csalás felderítést kellene végezni?
+Gráf
+A dokumentum adatbázisok esetén melyik struktúra feleltethető meg a relációs adatbázis tábláinak?
+Gyűjtemény
+
+Mikor jelenthetjük ki axiómaszerűen, hogy jó egy modell?
+Valósághű, teljes, minimális..
+Mi rejlik a következő párbeszédben: "A kapitány a gépháznak: Mennyi? Gépház a kapitánynak: Harminc. Kapitány a gépháznak: Mi harminc? Gépház a kapitánynak: Mi mennyi?"
+Egyik sem..
+Melyek az SQL select parancsának – általunk tanult – fő részei és ezek milyen sorrendben kell kövessék egymást?
+Oszlopnevek, táblanevek, where , group by, having, order by..
+Van egy kárrendező és egy biztosítási-díj megállapító részlegünk. Az egyik arra kíváncsi, hogy egy káreseményben milyen bajok érték az abban résztvevő kocsikat. A másik abban, hogy egy kocsit milyen károk értek és emiatt miként számolja ki a bonus-malus százalékát. Ön hány egyedtípust lát e feladat mögött?
+Hármat..
+Mi rejlik ebben a mondatban: "Az Adatbázisok tárgy oktatója Keszthelyi András"?
+Adat..
+Milyen problémákat fedez fel a következő modellrészletben? VEVŐ(PK:Vevőkód, Vevőnév, Vevőcím), RENDELÉS(PK:Rendelésszám, Rendelésdátum, FK:Vevőkód, Vevőcím)?
+A RENDELÉS-ben tranzitív függés van..
+Mi a paradigma?
+Adott korban és területen általánosan elfogadott/kikényszerített szabályrendszer..
+Mi a modell általános érvényű meghatározása?
+"Pót tárgy", amely meghatározott célra és időtartamra helyettesíti az eredetit..
+Létező adatokat kell módosítanunk egy SQL-adatbáziskezelővel. Ha a kezelőt ehhez a művelethez parancssorból használjuk, mire kell különösen vigyázni?
+A where feltétel select utasításban ellenőrzött megadására..
+Hányadik normálformájú a következő egyed: SZÁMLATÉTEL(Számlaszám+Cikkszám, ..., Tételérték, Egységár)?
+1NF.
+Mi a követendő eljárás az SQL használatakor, ha a lekérdezni kívánt adatok több különböző táblában találhatók meg?
+Célszerű ezen adatokat egy ideiglenes táblába összeszedni..
+Az SQL-ben létezik egy "bigint" numerikus adattípus (8 byte, -2^63..2^63-1, előjel nélkül 0..2^64-1). Ez fogalmi, logikai vagy fizikai szintű tényező?
+Fizikai szintű tényező, mert ez kimondottan "tárolási trükk"..
+Melyik állítás NEM igaz általános érvénnyel a modellre?
+Megegyezik az eredetivel..
+A SZEMÉLY állományban szerepel a nyelvtudásra vonatkozó ismétlődő csoport (Nyelv, Vizsgadátum, Vizsgafok). A tervező három ilyen csoportot alkalmaz. Az alábbi állítások közül melyik a hibás?
+A baj az, hogy csak háromféle nyelvet lehet megadni..
+Nyilvántartást kell vezetnünk a betegellátás finanszírozásáról. Adatokat kell tárolnunk az orvosokról, a betegekről és a társadalmi biztosítottakról, mint lehetséges betegekről. Hány egyedtípust lát e feladat mögött?
+Egyet..
+Mi a különbség a RENDELÉS egyedtípus Rendelésdátum és Vevőazonosító tulajdonságtípusai között?
+A Rendelésdátum leíró TT, míg a Vevőazonosító egy másik ET egyik előfordulására mutat..
+Helyesek-e vagy sem az alábbi megoldások (miért):
+A RENDELÉSTÉTEL-ben a mennyiséget az R-Mennyiség, a SZÁLLÍTÁSTÉTEL-ben az S-Mennyiség névvel illetjük..
+A SZEMÉLY állományban szerepel a nyelvtudásra vonatkozó ismétlődő csoport (Nyelv, Vizsgadátum, Vizsgafok). A tervező három ilyen csoportot alkalmaz. Véleménye szerint ez fogalmi, logikai vagy fizikai szintű szerkezeti megfontolás?
+Logikai..
+Milyen jellegű az Irányítószám ==> Településnév doméjnfügggés?
+Mindkét oldalról gyenge..
+Milyen következtetést vonna le Ön abból, ha a SZEMÉLY egyedet annak Születési dátum tulajdonságán összekapcsolva a RENDELÉS egyedet (Rendelésdátum) kiderülne, hogy mindig Kovács születésnapján rendelnek eperfagyit:
+Lehet, hogy Kovács epres, de két egyedet leírón nem szabad kapcsolni..
+Milyen típusú megszorítás a CHECK(kor > 0) ?
+értékfüggő
+Hathat-e a főellenség városára az, ha a főellenség ID-t megváltoztatom? [S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8]
+Igaz
+{"type":"image","hashedImages":["S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8"],"images":["5.jpg"],"possibleAnswers":["Igaz","Hamis"]}
+Melyik állítás igaz? Egy reláció 3NF-ben van, ha 2NF-ben van, és...
+nincs függés a másodlagos attr között
+Az alábbi táblában hozzászólásokról tárolunk adatokat, melyeket egészükben, sztringként szeretnénk listázni. A táblában atomi állapotban vannak az adatok. [CVdM6SkviC0X8RoL0k4KuP-4VwQu6DhMCXfxDO55IbE]
+Igaz
+{"type":"image","hashedImages":["CVdM6SkviC0X8RoL0k4KuP-4VwQu6DhMCXfxDO55IbE"],"images":["2.jpg"],"possibleAnswers":["Igaz","Hamis"]}
+3NF fennállásának feltétele
+2NF teljesül és a reláció nem tartalmaz függőséget a nem elsődleges attribútumok között
+Melyik állítás igaz?
+Az SQL deklaratív nyelv .
+Az E/K diagramban az egyedhalmazok közötti kapcsolatok csak binárisak lehetnek.
+Igaz.
+3NF fennállásának feltétele
+2NF teljesül és a reláció nem tartalmaz függőséget a nem elsődleges attribútumok között .
+Melyik állítás ír le helyes állapotot?
+Egy táblában egy attribútum idegen kulcs, egy másik táblában pedig kulcs .
+Monogám világban férj és feleség (egy adott pillanatra vonatkozóan)
+egy-egy kapcsolat .
+2NF fennállására igaz
+1NF és reláció minden másodlagos attribútuma teljes függőségben van az összes reláció kulccsal , Ha egy 1 NF relációban a kulcs egyszerű, akkor a reláció teljesíti a 2NF normálformát
+Melyik lekérdezésnél spórolja meg az Oracle a rendezési műveletet, ha nincs expliciten index az oszlopokon?
+SELECT employee_id, last_name FROM employees ORDER BY employee_id;.
+Mi irreleváns az adatblokk méretének kiválasztásakor?
+a CPU sebessége.
+Milyen funkcionális függőség él a táblában, ahol a Név és Erő adja a kulcsot. [Z6UYfI53zchcEZ4rHjp3qkDJy_H-iYfDs9cdkhdx4dk]
+Az Ország funkcionálisan függ a Várostól.
+{"type":"image","hashedImages":["Z6UYfI53zchcEZ4rHjp3qkDJy_H-iYfDs9cdkhdx4dk"],"possibleAnswers":[{"text":"a. A Város funkcionálisan függ az Országtól","selectedByUser":true},{"text":"b. Nincs másik funkcionális függés","selectedByUser":false},{"text":"c. Az Erő funkcionálisan függ a Monogramtól","selectedByUser":false},{"text":"d. Az Ország funkcionálisan függ a Várostól","selectedByUser":false}]}
+Melyik IGAZ a Natural JOIN-ra?
+Nem adjuk meg a táblák közötti kapcsolatot mezőnév szinten.
+Hathat-e a főellenség városára az, ha a főellenség ID-t megváltoztatom? [S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8]
+Igaz.
+{"type":"image","hashedImages":["S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8"],"possibleAnswers":[{"text":"Igaz","selectedByUser":false},{"text":"Hamis","selectedByUser":true}]}
+Gyenge egyedhalmazra igaz
+az egyedhalmaz attribútumai nem elégségesek az egyedek azonosítására , az egyedei azonosításához más egyedhalmaz(ok) kulcsa is kell , E/K-ban a jelölése dupla vonalas téglalappal történik
+Egy felhasználó hogyan optimalizálhatja az általa írt lekérdezést?
+Előbb szűkít, utána JOIN-ol.
+Hogyan írjuk át relációvá a Játékosok egyedhalmazt az alábbi ábra alapján? [S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8]
+Játékosok (jSzám, csNév, név).
+{"type":"image","hashedImages":["S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8"],"possibleAnswers":[{"text":"a. Játékosok (jSzám, csNév, név)","selectedByUser":false},{"text":"b. Játékosok (jatekosID, jSzám, csNév, név)","selectedByUser":false},{"text":"c. Játékosok (jSzám, név)","selectedByUser":true}]}
+Az E/K diagramban egy egyedhalmaznál a kulcs megadása elhagyható.
+Hamis.
+Milyen nyelv az SQL?
+deklaratív.
+A relációs lekérdezési fát átalakíthatjuk hatékonyabbá bizonyos szabályok alkalmazásával. Melyek helyesek az alábbiak közül?
+a vetítést célszerű minél korábban elvégezni , a közös részkifejezéseket célszerű lehetőleg csak egyszer kiszámoln
+Mit rendelünk hozzá a CREATE SESSION joggal a felhasználóhoz?
+a kapcsolatot.
+Logikailag mely kódrészlet azonos az alábbival? [XQfY43hX4tGFju0S7DWYiJ0S5qK2L4VCIqafPAImQxo]
+salary >= 2500 AND salary <= 3000.
+{"type":"image","hashedImages":["XQfY43hX4tGFju0S7DWYiJ0S5qK2L4VCIqafPAImQxo"],"possibleAnswers":[{"text":"a. Egyik sem","selectedByUser":false},{"text":"b. salary > 2500 AND salary < 3000","selectedByUser":false},{"text":"c. salary >= 2500 AND salary <= 3000","selectedByUser":true}]}
+Melyik állítás igaz?
+Egy megadott lekérdezéshez létezhet több, egymással ekvivalens relációs algebrai kifejezés .
+Hogyan történhet az indexelés?
+Mindegyik helyes..
+Melyik állítás igaz?
+A ROWID egy speciális mutató típus, amivel egy sort lehet azonosítani .
+Az adatbázis-kezelő rendszer iránti elvárások a következők:
+Bonyolult lekérdezések megválaszolása , Hálózatos környezetben is tudjon működni
+A full table scan kis tábla esetén drága művelet.
+Hamis.
+Mely mezőket veszi fel a kapcsolótábla az alábbi relációban? [S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8]
+Nincs szükség kapcsolótáblára.
+{"type":"image","hashedImages":["S6M4ftSHbatyNBgxtWi6CO_1xn13JHRxurKWdhlqMH8"],"possibleAnswers":[{"text":"a. galériaID, képID","selectedByUser":true},{"text":"b. Nincs szükség kapcsolótáblára","selectedByUser":false},{"text":"c. kapcsoló_ID, galéria_ID, kép_ID","selectedByUser":false},{"text":"d. Csak saját elsődleges kulcsot","selectedByUser":false}]}
+A kérdés az egyed-tulajdonságra vonatkozik! Vegyük alapul a következő adattot: Minta Géza, szül: Budapest, 1979. 01. 23., Árúfeltöltő.. Mi a helyes állítás
+Minta Géza mint munkavállaló az az egyed, amelynek vannak tulajdonságai..
+Melyik a helyes állítás?
+Az egyedeket téglalapokkal, tulajdonságaikat ellipszisekkel, a kapcsolataikat pedig rombuszokkal ábrázoljuk..
+A következő kérdés a táblák közötti kapcsolatra kérdez rá. Az egyik táblában a munkavállaló személyes adatai (Név, születési adatok, TAJ, Adószám, állandó lakcím van), a másik táblában a munkaszerződés adatai. Ez milyen kapcsolat?
+1:1 kapcsolat.
+Egy relációs adatbázis modellje akkor van (...)-ben, ha az adatbázisban változatban megszüntetjük a tranzitív függéseket.
+normál forma.
+Mire vonatkozik az a definíció? (...) egy sora, a szó tehát az egyed szinonimája. Minden (...) egy egyed tulajdonságait tárolja. A táblákban tetszőleges számú rekord helyezhető el, amelyek sorrendje nem kötött."
+Rekord.
+A következő kérdés az adatbázis tervezési szintjeire vonatkozik. A Tankönyvben ezt olvashatjuk: "A középső szinten az úgynevezett (...) használjuk. A (...) közé tartozik a hálós, hierarchikus, az objektum-orientált és a relációs adatmodell.. A (...) helyére mi kerül?
+Lofikai szint.
+Az elsődleges kulcs szerepét betöltő mezőben nem lehet ismétlődés és nem vehet fell null értéket.
+Igaz.
+A modell-alkotás - beleértve az adatmodellezeést - a valóság pontos, kompromisszum-mentes leképezése.
+Hamis.
+Un. N:N tipúsú kapcsolatot is létrehozhatunk - az 1:1 és az 1:N mintájára - közvetlenül két tábla összekapcsolásával.
+Hamis.
+A normalizálás olyan egylépscsős folyamat, amelynek célja a redundanciától mentes adatbázisok létrehozása.
+Hamis.
+
+34. Az irányítószámmal azonosított helységek megyékben helyezkednek el. Minden megyében van több település, és minden település csak egy megyében van. (Eltekintünk a nagyvárosoktól.) Az alábbi állítások közül melyik helyes?
+Az Irányítószám funkcionálisan meghatározza a Megyekódot..
+49. A gyakorló videotékás adatbázisban van olyan DVD, amelyhez nincs megadva a rajta lévő film azonosítója.
+Ez hiba, mert egy videotékában minden DVD-n kell legyen film..
+48. A `select Title from MOVIE where MovieID not in (select MovieID from DVD);` parancs:
+nem listáz semmit, mert vannak NULL jeles DVD-ink is..
+Adott a RENDELÉS a Rendelésszám, -dátum és Számlaszám tételekkel, továbbá a SZÁMLA egyedtípus a Számlaszám és Számlaegyenleg tulajdonságokkal A RENDELÉS egyedtípusbeli Rendelésszám...
+relatív és abszolút szerepe egyaránt azonosító..
+Adatszerű ismeretkezelés esetén, ha a kezelendő adatok mennyisége közepes (4-5 különböző kategóriában több tízezer tétel), a tranzakciók száma is közepes (egy-két tucat művelet naponta)...
+...érdemes adatbázist használnom, a típusos tranzakciókra scripteket készítve..
+39. Legalább hányadik NF alakban van az ismétlődést nem tartalmazó egyedtípus?
+1NF.
+50. A `select MovieID,count(*) from DVD;` parancs:
+listázza a legelső MovieID értékét és az összes DVD darabszámát..
+15. Ha adott helyzetben a NULL jelet "nem értelmezhető" (n.a.) jelentéstartalommal használjuk, az azt jelenti, hogy...
+...a modell nem (eléggé) valósághű..
+Mire következtetne abból, ha a SZEMÉLY egyedtípust annak Születési_dátum tulajdonságán összekapcsolva a RENDELÉS egyedtípussal (Rendelésdátum) kiderülne, hogy mindig Kovács születésnapján rendelnek csokifagyit?
+Leíró tulajdonságtípuson nem szabad kapcsolni..
+Adott a RENDELÉS a Rendelésszám, -dátum és Számlaszám tételekkel, továbbá a SZÁMLA egyedtípus a Számlaszám és Számlaegyenleg tulajdonságokkal A RENDELÉS egyedtípusbeli Rendelésdátum...
+relatív és abszolút szerepe egyaránt leíró..
+45. Az "auto increment" tulajdonságú oszlop esetében:
+az alapértelmezett érték az oszlopban valaha volt legnagyobb érték + 1 (ill. a beállított növekmény)..
+18. A select utasításban a mezőlistában álló csillag azt jelenti, hogy:
+minden oszlopot ki kell listázni..
+Adatszerű ismeretkezelés esetén, ha a kezelendő adatok mennyisége viszonylag szerény (max egy-két ezer tétel), a tranzakciók száma viszonylag alacsony (néhány művelet naponta)...
+...jó megoldás lehet egy táblázatkezelőt használnom..
+14. A homogén 1:N kapcsolat (pl. főnök-beosztott)...
+...mindkét irányban opcionális, különben végtelen sok előfordulást kellene kezelni..
+47. A `select DVDID,Title from DVD,MOVIE where MOVIE.MovieID=DVD.DVDID;` parancs:
+listáz valami marhaságot..
+46. Az "auto increment" tulajdonságú oszlop:
+csak egy lehet egy táblában, és annak az azonosítónak kell lennie..
+17. A videotékás példában a FILM:DVD kapcsolat 1:N és...
+...a DVD felé opcionális, mert tárolnunk kell azon filmek adatait is, amelyek még nincsenek meg nekünk DVD-n, viszont pl. szeretnénk őket megrendelni..
+13. Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Az azonosító az egyedelőfordulás egyértelmű megjelölése..
+35. Adott a Gyerekkód és az Apakód tulajdonság. Ha a gyerek természetes apjáról van szó, akkor:
+az Apakód funkcionálisan függ a Gyerekkódtól..
+42. Az SQL-ben a függvények egymásba ágyazhatók, ha:
+A belső függvény visszatérési értéke megfelel a külső függvény adott pozíción várt bemenő adatának (típus, méret vonatkozásában)..
+20. Egy tábla M nevű oszlopában a hiányzó értékekre vonatkozó feltételt a where záradékban a következőképpen kell formailag helyesen használni:
+where M is NULL.
+40. Legalább hányadik normálformában van az ismétlődést nem tartalmazó egyedtípus, ha egyszerű kulcsa van?
+2NF.
+44. Táblák törlése (drop table) esetén a fölöslegessé vált táblákat:
+az alárendelt táblával kell kezdeni..
+38. Hányadik normálformában van a RENDELÉS (Rendelésszám, R-dátum, ..., Cikkszám, Rendelt-mennyiség) egyedtípus (azonosító a Rendelésszám)?
+0NF.
+37. Rendeléseink általában egytételesek. Ezer megrendelés között csak egy van, amely több cikkre is vonatkozik. Mi a Rendelésszám és a Cikkszám viszonya?
+A két tétel egymástól független..
+Melyik NEM tartozik a jó modell ismérvei közé?
+Maximális.
+16. Az SQL select utasítás különböző részeinek a helyes sorrendje:
+SELECT kulcsszó, oszloplista, forrástáblák, where feltétel, csoportosítás valami szerint, szűrés a csoportfüggvény értékeire, rendezés valami szerint..
+Adatszerű ismeretkezelés esetén, ha a kezelendő adatok mennyisége nem túl nagy, a tranzakciók száma közepes, viszont a felhasználók saját maguk végzik a műveleteket (mint pl különféle igénylések leadása)...
+...muszáj elkészíteni egy menüvezérelt információs rendszert..
+33. Vállalatunknál a rendelésszám és a számlaszám egyaránt kilencjegyű szám. Ezért...
+nem tartozhatnak azonos értéktartományba, mert különböző a jelentésük..
+26. Lekérdezéseknél az eredménylistát rendezni lehet
+az order by részben megadott oszlopok szerint növekvő (ASC) vagy csökkenő (DESC) sorrendbe..
+10. Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Az elsődleges kulcs és az idegen kulcs értéke megegyezik..
+12. Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Az azonosító csak sorszám lehet..
+A számla és az azon lévő tételsorok közötti viszony...
+...mindkét oldalról kötelező..
+28. A "Duplicate entry '7' for key 'PRIMARY'" hibaüzenet...
+......olyankor fordul elő, ha már létező azonosítóértékkel szeretnénk újabb sort fölvenni egy táblába..
+43. Egymással kapcsolatban lévő táblák létrehozásakor (pl. MOVIE és DVD):
+az idegen kulcsot csak akkor tudom definiálni, ha a fölérendelt tábla már létezik, és csak az abban szereplő PK-nak megfelelő adattípussal és -mérettel..
+27. A "Duplicate entry '7' for key 'PRIMARY'" hibaüzenet...
+...olyankor fordul elő, ha már létező azonosítóértékkel szeretnénk újabb sort fölvenni egy táblába..
+11. Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Leíró tulajdonságtípuson nem szabad kapcsolni..
+31. A meta-adatbázis nem más, mint:
+az ismeretekről szóló ismeretek tárháza..
+21. Több különböző tábla közös lekérdezésénél...
+...az érintett táblák közötti minden kapcsolatra ki kell kötni a megfelelő PK-FK (azonosító és idegen kulcs) pár egyenlőségét..
+32. A "relációs adatbázis" kifejezés onnan ered, hogy:
+az egyedtípusokat táblákkal tükrözzük..
+23. Listázzuk ki a MOVIE táblából azon filmeket, amelyek hossza nagyobb, mint az összes film hosszának átlaga! A helyes megoldás:
+select * from MOVIE where Length&gt;(select avg(Length) from MOVIE);.
+25. Lekérdezéseknél a % (százalékjel)
+akárhány és akármilyen karaktert helyettesít egy szövegkonstansban..
+A modell akkor tekinthető jónak általános értelemben, ha teljesülnek rá az alábbi követelmények:
+Valósághű, teljes, minimális.
+29. "A rózsa ára 50 Ft." Melyik adatdimenzió hiányzik a közlésből?
+A generikus alany..
+22. Számoljuk meg a RENTAL táblában, hogy melyik tag-azonosítóhoz hány darab kölcsönzés tartozik! A helyes megoldás:
+select MemberID,count(*) as DB from RENTAL group by MemberID;.
+24. Az allekérdezés...
+...egy olyan zárójelben lévő lekérdezés, amelyik egy másik lekédezésbe van beágyazva..
+36. Adott a Gyerekkód és az Apakód tulajdonság. Ha egy gyereknek bármilyen okból (pl. válás) több papája lehet, akkor:
+a Gyerekkód és az Apakód kölcsönösen függetlenek egymástól..
+41. Hányadik normálformájú a SZÁMLATÉTEL (Számlaszám+Cikkszám, ..., Tételérték, Egységár) egyedtípus (PK a Számlaszám+Cikkszám)?
+1NF.
+19. Két tábla Descartes-szorzata úgy készül, hogy:
+vesszük mindkét tábla oszlopait, majd az egyik tábla minden egyes sorával párba állítjuk a másik tábla minden sorát..
+30. "A virág ára 50 Ft." Melyik adatdimenzió hiányzik a közlésből?
+A specifikus alany..
+Atominak nevezzük az egyedtípust, ha...
+...több kulcsjelöltet tartalmaz, de nem bontható le egymástól független egyedtípusra..
+A statisztika a modellalkotásban...
+...a hipotézisek ellenőrzésének egy lehetséges eszköze..
+Az E egyedtípus 5NF-ben van...
+...akkor és csak akkor, ha a kulcsjelöltjei között nincs kapcsolásfüggés..
+Melyik az igaz állítás az alábbiak közül? A származtatott tulajdonságokat...
+...mindenképpen kell modellezni, tárolni nem feltétlenül..
+Melyik a hamis állítás az alábbiak közül?
+Ha egy egyedben A  B és A  C, akkor {B, C}  A..
+Egy egyedtípus akkor és csak akkor áll visszamutató viszonyban önmagával, ha...
+...azonosítója funkcionálisan meghatározza saját szerepnevét..
+Ha egy egyedtípus egy másik egyedtípus azonosítójának több szerepnevét tartalmazza...
+...akkor közöttük többszörös inhomogén kapcsolat van..
+Melyik hamis az alábbi kijelentések közül?
+Minden kétoszlopos egyedtípus 5NF alakú..
+Melyik a hamis állítás az alábbiak közül, ha az egyedtípusban kulcstörő függés van?
+Az ilyen egyedtípus mindig függetlenül karbantartható egyedekre bontható..
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A =&gt; B és A =&gt; C többértékű függéspáros..
+Az egyedtípus akkor (és csak akkor) van Boyce-Codd normálformában, ha...
+...minden meghatározó tulajdonságtípusa kulcsjelölt is..
+Az E egyedtípus 4NF alakú...
+...ha az abban lévő bármely többértékű függés egyben funkcionális függés is..
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A =&gt; B és A =&gt; C többértékű függéspáros..
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A =&gt; B és A =&gt; C többértékű függéspáros.
+Az egyedtípus akkor (és csak akkor) van Boyce-Codd normálformában, ha...
+...minden meghatározó tulajdonságtípusa kulcsjelölt is.
+Az E egyedtípus 4NF alakú...
+...ha az abban lévő bármely többértékű függés egyben funkcionális függés is.
+Atominak nevezzük az egyedtípust, ha...
+...több kulcsjelöltet tartalmaz, de nem bontható le egymástól független egyedtípusra.
+Melyik az igaz állítás az alábbiak közül? A származtatott tulajdonságokat...
+...mindenképpen kell modellezni, tárolni nem feltétlenül.
+Melyik hamis az alábbi kijelentések közül?
+Minden kétoszlopos egyedtípus 5NF alakú.
+Az E egyedtípus 5NF-ben van...
+...akkor és csak akkor, ha a kulcsjelöltjei között nincs kapcsolásfüggés.
+A statisztika a modellalkotásban...
+...a hipotézisek ellenőrzésének egy lehetséges eszköze.
+Melyik a hamis állítás az alábbiak közül?
+Ha egy egyedben A  B és A  C, akkor {B, C}  A.
+Ha egy egyedtípus egy másik egyedtípus azonosítójának több szerepnevét tartalmazza...
+...akkor közöttük többszörös inhomogén kapcsolat van.
+Egy egyedtípus akkor és csak akkor áll visszamutató viszonyban önmagával, ha...
+...azonosítója funkcionálisan meghatározza saját szerepnevét.
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A =&gt; B és A =&gt; C többértékű függéspáros.
+Melyik a hamis állítás az alábbiak közül, ha az egyedtípusban kulcstörő függés van?
+Az ilyen egyedtípus mindig függetlenül karbantartható egyedekre bontható.
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A ==> B és A ==> C többértékű függéspáros..
+Melyik a hamis állítás az alábbiak közül?
+Ha egy egyedben A --> B és A --> C, akkor {B, C} --> A..
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A ==> B és A ==> C többértékű függéspáros..
+A `select MovieID,count(*) from DVD;` parancs:
+listázza a legelső MovieID értékét és az összes DVD darabszámát.
+Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Az azonosító csak sorszám lehet.
+Az egyedtípus tulajdonságtípusainak a kiterjedése:
+Intenzió
+A digitális/virtuális számegyenes:
+nem folytonos és nem végtelen
+Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Az azonosító az egyedelőfordulás egyértelmű megjelölése.
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A ==> B és A ==> C többértékű függéspáros.
+A meta-adatbázis nem más, mint:
+az ismeretekről szóló ismeretek tárháza.
+Az allekérdezés...
+...egy olyan zárójelben lévő lekérdezés, amelyik egy másik lekédezésbe van beágyazva.
+Az SQL-ben a függvények egymásba ágyazhatók, ha:
+A belső függvény visszatérési értéke megfelel a külső függvény adott pozíción várt bemenő adatának (típus, méret vonatkozásában).
+Listázzuk ki a MOVIE táblából azon filmeket, amelyek hossza nagyobb, mint az összes film hosszának átlaga! A helyes megoldás:
+select * from MOVIE where Length&amp;amp;gt;(select avg(Length) from MOVIE);
+Táblák törlése (drop table) esetén a fölöslegessé vált táblákat:
+az alárendelt táblával kell kezdeni.
+Az SQL select utasítás különböző részeinek a helyes sorrendje:
+SELECT kulcsszó, oszloplista, forrástáblák, where feltétel, csoportosítás valami szerint, szűrés a csoportfüggvény értékeire, rendezés valami szerint.
+Az olyan csupakulcs reláció, amelynek a kulcsa elemi, az:
+Unáris
+Két tábla Descartes-szorzata úgy készül, hogy:
+vesszük mindkét tábla oszlopait, majd az egyik tábla minden egyes sorával párba állítjuk a másik tábla minden sorát.
+Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Az elsődleges kulcs és az idegen kulcs értéke megegyezik.
+A videotékás példában a FILM:DVD kapcsolat 1:N és...
+...a DVD felé opcionális, mert tárolnunk kell azon filmek adatait is, amelyek még nincsenek meg nekünk DVD-n, viszont pl. szeretnénk őket megrendelni.
+Több különböző tábla közös lekérdezésénél...
+...az érintett táblák közötti minden kapcsolatra ki kell kötni a megfelelő PK-FK (azonosító és idegen kulcs) pár egyenlőségét.
+Rendeléseink általában egytételesek. Ezer megrendelés között csak egy van, amely több cikkre is vonatkozik. Mi a Rendelésszám és a Cikkszám viszonya?
+A két tétel egymástól független.
+Hányadik normálformájú a SZÁMLATÉTEL (Számlaszám+Cikkszám, ..., Tételérték, Egységár) egyedtípus (PK a Számlaszám+Cikkszám)?
+1NF
+Amikor több azonos lényegű jelenségnek a tulajdonságait egy közös egyedben egyesítjük, azt ... nevezzük.
+Aggregálásnak
+A FELMÉRÉS ( Felmérés az., ..., Személy az., Életkor_év) egyedtípus:
+Rosszul tervezett (etikailag), mert felmérések esetében a felmérést kitöltő konkrét személyek kilétét nem tároljuk.
+Legalább hányadik NF alakban van az ismétlődést nem tartalmazó egyedtípus?
+1NF
+Az irányítószámmal azonosított helységek megyékben helyezkednek el. Minden megyében van több település, és minden település csak egy megyében van. (Eltekintünk a nagyvárosoktól.) Az alábbi állítások közül melyik helyes?
+Az Irányítószám funkcionálisan meghatározza a Megyekódot.
+Adott a RENDELÉS a Rendelésszám, -dátum és Számlaszám tételekkel, továbbá a SZÁMLA egyedtípus a Számlaszám és Számlaegyenleg tulajdonságokkal. A RENDELÉS egyedtípusbeli Rendelésszám...
+relatív és abszolút szerepe egyaránt azonosító.
+A SZEMÉLY (Személy az, ..., Lakcím), LAKCÍMVÁLTOZÁS ( Személy az+Dátum , Régi lakcím, Új lakcím) modellrészlet:
+Rosszul tervezett, mert a Régi lakcím funkcionálisan részlegesen függ a Személyazonosítótól.
+Számoljuk meg a RENTAL táblában, hogy melyik tag-azonosítóhoz hány darab kölcsönzés tartozik! A helyes megoldás:
+select MemberID,count(*) as DB from RENTAL group by MemberID;
+"A virág ára 50 Ft." Melyik adatdimenzió hiányzik a közlésből?
+A specifikus alany.
+Ha adott helyzetben a NULL jelet "nem értelmezhető" (n.a.) jelentéstartalommal használjuk, az azt jelenti, hogy...
+...a modell nem (eléggé) valósághű.
+A számla és az azon lévő tételsorok közötti viszony...
+...mindkét oldalról kötelező.
+Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Leíró tulajdonságtípuson nem szabad kapcsolni.
+Adott a Gyerekkód és az Apakód tulajdonság. Ha egy gyereknek bármilyen okból (pl. válás) több papája lehet, akkor:
+a Gyerekkód és az Apakód kölcsönösen függetlenek egymástól.
+Egy tábla M nevű oszlopában a hiányzó értékekre vonatkozó feltételt a where záradékban a következőképpen kell formailag helyesen használni:
+where M is NULL
+Egymással kapcsolatban lévő táblák létrehozásakor (pl. MOVIE és DVD):
+az idegen kulcsot csak akkor tudom definiálni, ha a fölérendelt tábla már létezik, és csak az abban szereplő PK-nak megfelelő adattípussal és -mérettel.
+Az "auto increment" tulajdonságú oszlop esetében:
+az alapértelmezett érték az oszlopban valaha volt legnagyobb érték + 1 (ill. a beállított növekmény).
+Adatszerű ismeretkezelés esetén, ha a kezelendő adatok mennyisége viszonylag szerény (max. egy-két ezer tétel), a tranzakciók száma viszonylag alacsony (néhány művelet naponta)...
+...jó megoldás lehet egy táblázatkezelőt használnom.
+Lekérdezéseknél az eredménylistát rendezni lehet
+az order by részben megadott oszlopok szerint növekvő (ASC) vagy csökkenő (DESC) sorrendbe.
+Az EGYSÉGÁR ( Cikkszám + Érvényesség kezdete , Egységár, Érvényesség vége) egyedtípus:
+Rosszul tervezett, mert karbantartási problémákat vet föl.
+Az "auto increment" tulajdonságú oszlop:
+csak egy lehet egy táblában, és annak az azonosítónak kell lennie.
+Az olyan technikai egyedtípus, aminek egyetlen egy előfordulása van és kulcsa mesterséges:
+Szinguláris
+Melyik NEM tartozik a jó modell ismérvei közé?
+Maximális
+A modell akkor tekinthető jónak általános értelemben, ha teljesülnek rá az alábbi követelmények:
+Valósághű, teljes, minimális
+Melyik a hamis állítás az alábbiak közül?
+Ha egy egyedben A --> B és A --> C, akkor {B, C} --> A.
+Lekérdezéseknél a % (százalékjel)
+akárhány és akármilyen karaktert helyettesít egy szövegkonstansban.
+Adott a RENDELÉS a Rendelésszám, -dátum és Számlaszám tételekkel, továbbá a SZÁMLA egyedtípus a Számlaszám és Számlaegyenleg tulajdonságokkal. A RENDELÉS egyedtípusbeli Rendelésdátum...
+relatív és abszolút szerepe egyaránt leíró.
+Az egyedtípus előfordulásainak a kiterjedése:
+Extenzió
+Adatszerű ismeretkezelés esetén, ha a kezelendő adatok mennyisége közepes (4-5 különböző kategóriában több tízezer tétel), a tranzakciók száma is közepes (egy-két tucat művelet naponta)...
+...érdemes adatbázist használnom, a típusos tranzakciókra scripteket készítve.
+A `select DVDID,Title from DVD,MOVIE where MOVIE.MovieID=DVD.DVDID;` parancs:
+listáz valami marhaságot.
+Vállalatunknál a rendelésszám és a számlaszám egyaránt kilencjegyű szám. Ezért...
+nem tartozhatnak azonos értéktartományba, mert különböző a jelentésük.
+Hányadik normálformában van a RENDELÉS (Rendelésszám, R-dátum, ..., Cikkszám, Rendelt-mennyiség) egyedtípus (azonosító a Rendelésszám)?
+0NF
+Mire következtetne abból, ha a SZEMÉLY egyedtípust annak Születési_dátum tulajdonságán összekapcsolva a RENDELÉS egyedtípussal (Rendelésdátum) kiderülne, hogy mindig Kovács születésnapján rendelnek csokifagyit?
+Leíró tulajdonságtípuson nem szabad kapcsolni.
+Legalább hányadik normálformában van az ismétlődést nem tartalmazó egyedtípus, ha egyszerű kulcsa van?
+2NF
+A szinttévesztés olyan hibakategória, amikor...
+...a tervező bevett szokásai, a kezelő korlátai vagy egyszerűen a fogalmi szint ismeretének hiánya miatt eleve logikai szintű megoldásokat alkalmaz.
+Az E (A,B,C) egyedtípus csak akkor egyenlő az E1 (A, B) és E2 (A, C) lebontásainak az összekapcsolásával, ha...
+...ha fennáll az A ==> B és A ==> C többértékű függéspáros (B és C is tartományfügg A-tól)..
+A homogén 1:N kapcsolat (pl. főnök-beosztott)...
+...mindkét irányban opcionális, különben végtelen sok előfordulást kellene kezelni..
+Az "auto increment" tulajdonságú oszlop esetében:
+az alapértelmezett érték az oszlopban valaha volt legnagyobb érték + 1 (ill. a beállított növekmény)..
+"A virág ára 50 Ft." Melyik adatdimenzió hiányzik a közlésből?
+A specifikus alany..
+Két tábla Descartes-szorzata úgy készül, hogy:
+vesszük mindkét tábla oszlopait, majd az egyik tábla minden egyes sorával párba állítjuk a másik tábla minden sorát..
+Az egyedtípus tulajdonságtípusainak a kiterjedése:
+Intenzió.
+Legalább hányadik normálformában van az ismétlődést nem tartalmazó egyedtípus, ha egyszerű kulcsa van?
+2NF.
+Adott a Gyerekkód és az Apakód tulajdonság. Ha a gyerek természetes apjáról van szó, akkor:
+az Apakód funkcionálisan függ a Gyerekkódtól..
+Melyik NEM szerkezeti korlát azonosítókra vonatkozóan?
+Leíró tulajdonságtípuson nem szabad kapcsolni..
+A meta-adatbázis nem más, mint:
+az ismeretekről szóló ismeretek tárháza..
+Az olyan technikai egyedtípus, aminek egyetlen egy előfordulása van és kulcsa mesterséges:
+Szinguláris.
+Vállalatunknál a rendelésszám és a számlaszám egyaránt kilencjegyű szám. Ezért...
+nem tartozhatnak azonos értéktartományba, mert különböző a jelentésük..
+Az olyan csupakulcs reláció, amelynek a kulcsa elemi, az:
+Unáris.
+Az egyedtípus előfordulásainak a kiterjedése:
+Extenzió.
+
+
+
+C++ osztályokhoz automatikusan is generálódhat copy constructor, ami minden adattag copy constructor-át megpróbálja meghívni.
+Igaz
+Az alábbi Auto osztály esetében válassza ki a helyes választ: class Auto { public: Auto(Owner* op); getOwner(); protected: setOwner(Owner* op); private: Owner* owner; };
+setOwner metódust az Auto osztályból bármilyen jogosultsággal származtatott osztályból meg lehet hívni Helyes válasz.
+C++ standard template library kérdés: Ha a gyors beszúrás fontos, inkább std::list-et használjunk, mint std::vector osztályt. Ha viszont keresni szeretnénk, az std::set jobb, mint az std::list vagy std::vector - igaz, vagy hamis?
+Igaz
+Az alábbi kód lefordul - igaz, vagy hamis? [T_KGhXlF2HE_0uZ0TuRS-1Gq3TvKcHyYUMuV7xi7qHg]
+Hamis
+{"type":"image","hashedImages":["T_KGhXlF2HE_0uZ0TuRS-1Gq3TvKcHyYUMuV7xi7qHg"],"possibleAnswers":[{"text":"Igaz","selectedByUser":true},{"text":"Hamis","selectedByUser":false}]}
+Setter metódusok láncolt hívásához célszerű az objektumra hivatkozó referenciát visszaadni, ezt pedig a 'this' visszaadásával lehet elérni.
+Hamis
+C++ structok és osztályok között az a különbség, hogy a structok esetében a tagváltozók / tagfüggvények alapból public, míg osztályok esetében alapból private láthatóságúak.
+Igaz
+Az alábbi kód lefordul - igaz, vagy hamis? [0zKgBJfiNhAh6OpI4w_uFkT2SUQpFN3CMGr7Rs01sH0] [iczDUkuwFxk_HTqm3x3ZYR7MHRQ3dICNORK7Dwmtsmg]
+Igaz
+{"type":"image","hashedImages":["0zKgBJfiNhAh6OpI4w_uFkT2SUQpFN3CMGr7Rs01sH0","iczDUkuwFxk_HTqm3x3ZYR7MHRQ3dICNORK7Dwmtsmg"],"possibleAnswers":[{"text":"Igaz","selectedByUser":true},{"text":"Hamis","selectedByUser":false}]}
+Alább látható a következő program: [7CgPt4XUVJUNOi0xKZc2PlkYbEq-RpMRwYziTZorT3c] Mit tapasztal a program futása során? Szükséges dynamic_cast, hogy a program a téglalap területét írja ki?
+A program kiírja standard outputra a téglalap területét (30), nincs szükség dynamic_cast-ra.
+{"type":"image","hashedImages":["7CgPt4XUVJUNOi0xKZc2PlkYbEq-RpMRwYziTZorT3c"],"possibleAnswers":[{"text":"a. A program kiírja standard outputra a téglalap területét (30), nincs szükség dynamic_cast-ra.","selectedByUser":true},{"text":"b. A program kiírja standard outputra a téglalap területét (30), de a megfelelő memóriakezelés miatt szükséges lenne dynamic_cast.","selectedByUser":false},{"text":"c. A program kiírja standard outputra, hogy \"AREA 0\" és a 0 értéket, szükséges dynamic_cast.","selectedByUser":false},{"text":"d. A program kiírja standard outputra a téglalap területét (30) és azt, hogy \"AREA 0\", szükséges dynamic_cast.","selectedByUser":false},{"text":"e. A program futás során egy std::bad_cast kivételt dob, szükséges dynamic_cast.","selectedByUser":false}]}
+
+
+
+1 A MongoDB-ben a sharding ___________ szinten történik.
+a.gyűjtemény
+b.mező
+c.másodlagos index
+d.dokumentum
+A helyes válasz: gyűjtemény.
+
+2 A Neo4j-ben mindegy, hogy a címkék nevét kicsi vagy nagy betűvel írjuk, hiszen a kettőspont megkülönbözteti őket az egyéb kulcsszavaktól.
+Válasszon ki egyet:
+a.Igaz
+b.Hamis
+A helyes válasz a 'Hamis'.
+
+
+3 Az Oracle által generált lekérdezési tervben mit mutat meg a Cardinality?
+a.Azt, hogy az adott művelet mennyire fontos.
+b.Azt, hogy az adott művelet hány sort adott vissza.
+c.Azt, hogy az adott műveletnek mekkora a költsége.
+d.Azt, hogy az adott művelet becsülten hány sort fog visszaadni.
+A helyes válasz: Azt, hogy az adott művelet becsülten hány sort fog visszaadni..
+
+
+4 Mi a különbség a Redis-ben a "set" és a "sorted set" típusok között?
+a.A sorted set elemei kulcs szerint rendezettek, míg a set elemei nem rendezettek.
+b.A sorted set elemei nem rendezettek, míg a set elemei rendezettek.
+c.A set elemei között nem lehet ismétlődés, míg a sorted set elemei között lehet.
+d.A sorted set elemeihez tartozik egy számérték, míg a set elemeihez nem.
+A helyes válasz: A sorted set elemeihez tartozik egy számérték, míg a set elemeihez nem..
+
+5 Hogyan lehet elérni, hogy az Oracle a Hash Group By módszert használja a csoportosításhoz?
+a.Ennek nincs értelme, mivel a Sort Group By gyorsabb.
+b.Materializált nézet használatával.
+c.Subquery Factoring használatával.
+d.A HASH_GROUP hint használatával.
+e.A lekérdezés átalakításával.
+A helyes válasz: A lekérdezés átalakításával..
+
+
+6 Mi a különbség a unique és non-unique index között?
+a.A unique indexben az értékek csak egyszer szerepelhetnek, de a rowid-k többször is.
+b.A non-unique indexben az értékek többször is szerepelhetnek, de csak ugyanazon a levélelemen.
+c.A unique indexben az értékek többször is szerepelhetnek, de csak különböző levélelemeken.
+d.Unique index nem jön létre automatikusan, non-unique viszont igen.
+e.A non-unique indexben a rowid-k többször is szerepelhetnek, de csak ugyanazon a levélelemen.
+A helyes válasz: A non-unique indexben az értékek többször is szerepelhetnek, de csak ugyanazon a levélelemen.
+
+7 A Neo4j adatmodelljében a kapcsolatoknak lehet súlya és címkéje, de nem lehetnek tulajdonságai.
+Válasszon ki egyet:
+a.Igaz
+b.Hamis 
+A helyes válasz a 'Hamis'.
+
+
+8 Az adatblokkok mérete Oracle adatbázis esetén mindig 8K.
+a.Igaz
+b.Hamis
+A helyes válasz: Hamis.
+
+
+9 Az RDBMS mely gyenge pontjait próbálták megoldani a NoSQL-el?
+a.a korlátozottabb méretezhetőséget (scale up)
+b.a kevésbé biztonságos jogosultságkezelést
+c.a kötött sémával való munkát
+A helyes válaszok: a kötött sémával való munkát, a korlátozottabb méretezhetőséget (scale up)
+
+
+
+
+10 A Redis konfigurálható master-slave működésre.
+Válasszon ki egyet:
+a.Igaz
+b.Hamis 
+A helyes válasz az 'Igaz'.
+
+
+
+
+11 A MongoDB-ben milyen fajta join művelet lehetséges?
+a.
+Left join
+b.Natural join
+c.Inner join
+d.Bármilyen join lehetséges
+e.Semmilyen join nincs
+A helyes válasz: Left join.
+
+
+12 NoSQL adatbázis rendszerekre általában jellemző...
+a.Sharding és Replikációs adat elosztás közül mindig csak az egyiket támogatja
+b.BASE tulajdonságok
+c.ACID tulajdonságok
+d.CAP tulajdonságok közül mindhárom
+e.flexibilis séma
+A helyes válaszok: BASE tulajdonságok, flexibilis séma
+
+
+13 A Neo4j clusterben vannak olyan szerverek, amelyek az olvasás kérések terhelés-elosztásában segítenek.
+Válasszon ki egyet:
+a.Igaz
+b.Hamis
+A helyes válasz az 'Igaz'.
+
+14 Melyek igazak a CAP (Consistency, Avaibility, Partition tolerance) tételre?
+a.Egy rendszernek mindhárom követelményt teljesítenie kell
+b.A Consistency követelmény a replikációval függ össze
+c.A három követelmény összefügg, ám egy rendszer csak két követelményt tud kielégíteni
+A helyes válaszok: A Consistency követelmény a replikációval függ össze, A három követelmény összefügg, ám egy rendszer csak két követelményt tud kielégíteni
+
+
+
+15 Mi történik egy MongoDB replica set-ben, ha a primary node kiesik?
+a.A redundáns tárolás miatt semmi nem történik, minden funkció változatlanul elérhető továbbra is.
+b.Az arbiter azonnal átveszi a helyét.
+c.A replica set  read-only módba vált, amíg az új primary kiválasztásra nem kerül.
+d.Az első secondary azonnal átveszi a helyét.
+A helyes válasz: A replica set  read-only módba vált, amíg az új primary kiválasztásra nem kerül..
+
+
+
+16 Cartesian join műveletet kizárólag akkor látunk a végrehajtási tervben, ha hibásan írtuk meg a lekérdezést.
+Válasszon ki egyet:
+a.Igaz
+b.Hamis
+A helyes válasz a 'Hamis'.
+
+
+
+17 Válassza ki a következő pontok közül azokat, amelyek a MongoDB-re jellemzők!
+a.oszlop tároló
+b.támogatja az idegen kulcsokat
+c.horizontális skálázhatóság
+d.dinamikus séma támogatás
+e.relációs tábláknak megfelelő adatstruktúrát kollekciónak vagy gyűjtménynek nevezzük
+f.inner join-t támogatja
+g.indexelés biztosított
+h.CAP tétel és BASE tulajdonságok
+i.CAP-ból csak az availability teljesül rá
+j.ACID tulajdonságokat támogatja
+A helyes válaszok: relációs tábláknak megfelelő adatstruktúrát kollekciónak vagy gyűjtménynek nevezzük, horizontális skálázhatóság, dinamikus séma támogatás, indexelés biztosított, CAP tétel és BASE tulajdonságok
+
+
+
+18 Mi a különbség az ACID és a BASE között?
+a.az ACID jobb, mint a BASE, mert szigorúbb
+b.a BASE kevesebb követelményt ír elő a tranzakciókezeléssel kapcsolatban
+c.az ACID csak relációs adatbázisban van, míg a NoSQL mindkettőt támogatja
+d.egyik sem jobb a másiknál, hisz ez teljesen feladatspecifikus
+A helyes válaszok: a BASE kevesebb követelményt ír elő a tranzakciókezeléssel kapcsolatban, egyik sem jobb a másiknál, hisz ez teljesen feladatspecifikus
+
+
+
+19 Melyik állítás igaz a "vertikálisan skálázható" kifejezésre?
+a.A rendszer komponenseit fejlesztem, ami hosszútávon nem túl hatékony megoldás.
+b.Úgy növelem az erőforrást, hogy újabb node-okat csatolok a rendszerhez.
+A helyes válasz: A rendszer komponenseit fejlesztem, ami hosszútávon nem túl hatékony megoldás..
+
+
+
+20 Mi a normalizálás célja?
+a.A redundancia kiküszöbölése.
+b.A redundancia bevezetése a biztonság miatt.
+c.Az adatok széttagolása kisebb táblákra.
+d.Az adatok széttagolása a felhasználásnak megfelelő csoportokba.
+A helyes válasz: A redundancia kiküszöbölése..
+
+
+21 Az alábbiak közül melyek Redis adattípusok?
+a.Sorted Set
+b.Set
+c.List
+d.Sorted List
+e.Linked List
+f.Integer
+A helyes válaszok: Set, Sorted Set, List
+
+
+22 Ismertesse tömören a CAP tételt: a 3 követelmény és jelentésük, mit mond ki a tétel.
+Válaszszöveg
+C: Consistency (konzisztencia) az adott klaszteren belül minden csomópontban (node) egy adott időpillanatan ugyanazok az adatok.
+Avalibility (elérhetőség) : a klaszterben mindig le lehet kérdezni az adatokat, és erre mindig kapunk választ.
+Partition tolerace: Particiónálás támogatás, tehát ha egy klaszternek a csomópontjai (node) meghibásodnak akkor működőképes marad-e a rendszer. (pl. hozzá lehet férni az adatokhoz)
+A tétel szerint az elosztott rendszereknek a felsorolt három követelmény közül kettőt mindig biztosítania kell.
+
+
+23 A tranzakció ACID tulajdonságai közül melyikhez köthető a következő állítás: „a tranzakció nem tudott lefutni, mert a szükséges elemi utasítások közül nem mind teljesült.”
+a.konzisztencia
+b.elkülönítés
+c.tartósság
+d.atomosság
+A helyes válasz: atomosság.
+
+
+24 Az alábbiak közül mely funkciókra képes a Redis?
+a.Clusterben működés
+b.Replikáció
+c.Sharding
+d.A rendelkezésre álló adatbázisok száma konfigurálható
+A helyes válaszok: Replikáció, Sharding, Clusterben működés, A rendelkezésre álló adatbázisok száma konfigurálható
+
+
+
+25 Mely állítások nem igazak a Neo4J-re?
+a.Képes CSV fájlokat importálni
+b.A lekérdezési sebesség bármekkora méretű adatbázis esetén gyors
+c.Nem alkalmas sharding-ra.
+d.Az enterprise edition is teljesen ingyenes
+A helyes válaszok: Az enterprise edition is teljesen ingyenes, A lekérdezési sebesség bármekkora méretű adatbázis esetén gyors
+
+
+
+
+Ha egy reláció sérti a 3NF-et, akkor a 3NF elérése érdekében
+mindhárom igaz
+
+Melyik állítás igaz? Egy reláció 3NF-ben van, ha 2NF-ben van, és
+nincs függés a másodlagos attr. között
+
+Mikor kerülhet egy 1NF-ben lévő reláció automatikusan 2-NF-be?
+Ha a táblának csak egy mesterséges PK-ja van (pl:ID)
+Ha az elsődleges kulcs nem összetett
+
+1NF fennállására igaz
+a reláció minden sorának minden mező értéke egy elemi érték
+a reláció rekordjaiban nincsennek beágyazott mezők vagy táblázatok
+
+2NF fennállására igaz:
+1Nf és reláció  minden másodlagos attributuma teljes függésben van az összes relációs kulccsal
+Ha egy 1NF relációban a kulcs egyszerű, akkor a reláció teljesíti a 2NF normálformát
+
+3NF fennállásának a feltétele:
+2NF teljesül és a reláció nem tartalmaz függőséget a nem elsődleges attributunok között
+
+
+Egy relációban a kulcs egyszerű, akkor: 
+ha 1NF fenáll, biztosan teljesül 2NF is
+
+
+Egy nem kzkcs oszlop egy összetett kulcs csak egy részétől függ -> hamis
+
+
+Melyik HAMIS a UNIQUE és az elsődleges kulcs megszrításokra vonatkozóan:
+Ilyen típusú oszlopban egy érték többször is szerepelhet
+
+Milyen lehetőségei vannak az ABKR-nek az idegen kulcs megszorítás hivatkozási épség sérülésének kiküszöbölésére:
+Mindhárom
+
+Milyen típusú megszorítás a CHECK(kor>0)?
+értékfüggő
+
+Az, hogy egy lekérdezés mennyire optimálisan fut le, kizárólag a felhasználón múlik.
+Hamis
+
+Az optimalizáló melyiket veszi figyelembe legnagyobb s úllyal az alábbiak közül?
+háttértár és a memó ria közö tti ada tátvite
+
+
+Magas szintű kérdések átalakítását végzi egyszerű utasítások....
+Lekérdezés feldolgozó
+
+
+Melyik állftás igaz?
+Az SQL deklaratív nyelv
+
+A levé lcsúcs a navigációt segíti a fában.
+Igaz
+
+Adatbázis statisztikában tároljuk
+Oszlopokról információt, mint pl: különböző értékek száma egy oszlopban, NULL-ok száma, adatok eloszlása
+Táblákról információkat, mint sorok száma, blokkok száma
+
+A relációs átalakíthatj uk hatékonyabbá bizonyos szabályok alkalmazásával. Melyek helyesek az alábbiak közül?
+a természetes összekapcsolásnál a Descartes szorzat alkalmazásahatékonyabb
+a közös részkifejezéseket cél szerű le h e tő l eg csak egyszer kiszámoln
+
+Melyik állítás igaz?
+A ROWID eg y speciális mutató típus, amivel eg y sort lehet azonosítani
+
+Az alábbiak közül melyik költség alapú optimalizáció?
+CBO
+
+Melyik állítás igaz?
+Az index az adatok elérését tudjuk gyorsítani
+
+
+Lekérdezés végrehajtása során költséghatékonyabb, ha
+elöbb a szűkítést, utánna a JOIN-t végezzük el
+
+
+Amikor a lekérdezés lefut, de nem a várt eredményt kapjuk, az ...
+szemantikai hiba
+
+
+A UNIQUE index használatakor, ha egy sort duplikáltan szeretnék be szúrni a táb lá ba, akkor
+hibát kapok
+
+
+Mennyire pontos a statisztika, amit az Oracle használ?
+Nagyon pontos, szinte teljesen megbízható
+
+
+Mi a ROWID?
+Pszeudo oszlop, ami a táblában van tárolva
+
+
+Melyik állítás igaz?
+A B fa típusú index esetén a levél csúcsok a keresett adatok elérését mutatják meg
+A B fa típusú index esetén a köztes csúcsok a fában történő navigációért felelősek
+
+
+Lekérd ezés fe ld olgozás lépései közé tartoznak
+Optimális végrehajtási terv készítése
+Lekérdezés átírása relációs algebrai kifejezéssé, illetve kifejezésfává
+Lekérdezés elemzése, e ll enőrzése
+
+
+Alapvetően minden tábla index nélkül jön létre.
+Hamis, mert a PK-n és az UNIQUE-on lesz index alapból.
+
+
+A levélcsúcs a navigációt segíti a fában
+Hamis
+
+Ha egy relációban anomáliát tapasztalunk, akkor célszerű
+a relációt több relációra felbontani
+
+Melyik SQL-beli lekérdezés felel meg a relációs algebra szorzat műveletének?
+SELECT * FR0M tábla1, tábla2
+
+
+Mit definiálunk a relációs algebrai adatmodellben?
+adatokat és a rajtuk értelmezett műveleteket
+
+
+Melyik relációs algebrai alapművelet jelenik meg a SELECT last_name, salary FROM employees SQL lekérdezésben?
+projekció
+
+Melyik állítás igaz?
+Egy megadott lekérdezéshez létezhet több , egymással ekvi va lens relációs algeb rai kifej ezés
+
+Melyik állítás igaz?
+Egy megadott lekérdezéshez létezhet több, egymással ekvivalens relációs algebrai kifejezés
+
+
+
+Relác iós aJgebrai kifej ezésfa esetén igaz
+A fa gyöke re adja a lekérdezés eredményét
+A fa be l ső csúcsa i relác iós algebrai műve l et ekből állnak
+
+
+
+Melyik relációs algebrai alapművelet jelenik meg a SELECT salary FROM employees WHERE salary < 3000 SQL lekérdezésben?
+szelekció
+
+Mikről tárol adatokat az adatszótár?
+ezek közül mindegyikről
+
+
+Melyek tartoznak a re lációs algebra alapműveletei közé?
+szorzat, kivonás, unió
+
+
+A F , azaz kiválasztás relációs algebrai művelet
+a reláció azon sorait vá lasztja ki, amelyekre F teljesül
+SQL-beli végrehajtása a WHERE feliétellel valósul meg
+
+
+Melyik állítás igaz?
+AL ABKR élL SQ L 11ye lve 11 IJeérkeLel t Uli:l~Íl ibuki:il rel ,kiú:; i:il ye l m,i kifejeté :;:;é, il letve kifejeLé:;fi:lVi:I
+alakí~a át a lekérdezés fel dol gozás folyamatában
+
+
+A projekció relációs algebrai művelet
+egy reláció bizonyos oszlopait választja ki
+
+
+X és Z relációk esetén ha X U Z, akkor.. 
+X és Z rekordjai ismétlés nélkül jelennek meg
+
+
+A projekció relációs algebrai műve l et
+egy reláció bizonyos oszlopait választja ki
+
+
+Az alábbi műveletek közül melynek van kom patibilitási követelménye?
+unió
+
+Az Árú relációban megadott termékek adatait tároljuk....melyek 2000 Ft-ba kerülnek
+A Szelekció reláció algebrai műveletet kell alkalmazni
+
+a R(A 1, ... , Ak) relációnak n sora van, S(B 1, ... , BI )-nek pedig m sora, akkor R x S-re fennáll :
+nm sora van
+
+
+Adatszótár (Data Dictionary)
+a felhasználók által csak olvasható referencia táblákat és nézete ket tartalmaz
+az adatbázisról tartalmaz meta információkat
+
+Ha egy relációban anomáliát tapasztalun K, aKkor célszerü
+a relációt több relációra felbontan 
+
+
+A relációs algebrai műveleteknek létezik SQL-beli kifejezési lehetősége
+lgaz
+
+Relációs algebra származtatott műveletei közé tartozik
+o összekapcsolás
+Külsö illesztés
+Descartes szorza 
+
+Igaz-e az alábbi definicó a 3NF-et sértő funkcionális függőségre:
+Egy nem kulcs oszlop egy összetett kulcs csak egy részétől függ
+Hamis
+
+
+
+
+Válassza ki a helyes állítást!
+A master és slave node-ok között LAN hálózat biztosítja a kapcsolatot..
+Válassza ki a helyes állítást!
+A Hadoop a nagy mennyiségű adatokat elosztottan kezeli..
+Válassza ki a megfelelőt! A Hadoop sok számítógép kapcsolatából áll, mely _______ jellegű működést feltételez.
+klaszter.
+Válassza ki a megfelelőt! A klaszter erőforrás menedzseléséért a _______ komponens felel.
+YARN.
+Válassza ki a megfelelőt! A _______ egy SQL-en alapuló Hadoop komponens.
+Pig.
+Válassza ki a megfelelőt! A _______ opcionális Hadoop komponens.
+Oozie.
+Adott egy fájl 218MB mérettel, a blokkméret 64MB. Hány darab blokk keletkezik?
+4.
+Adott egy fájl 769MB mérettel, a blokkméret 256 MB, a replikációs faktor 2. Hány darab fájlblokk lesz a rendszerben összesen?
+8.
+Válassza ki a helyes állítást!
+A HDFS-en lévő fájlok feldarabolása párhuzamosítás céljából szükséges..
+Válassza ki a helyes állítást! A HDFS fájlrendszer kapacitását tekintve tipikusan _______ nagyságrendű.
+petaByte.
+Válassza ki a helyes állítást! A HDFS-en elhelyezkedő fájlok tipikusan _______ nagyságrendűek.
+gigaByte.
+Válassza ki a helyes állítást! Ha csökken a fájlok blokkmérete, akkor _______ .
+nő a metaadat, javul a párhuzamosíthatóság.
+Válassza ki a helyes állítást! Ha növekszik a fájlok blokkmérete, akkor _______ .
+csökken a blokkszám, romlik a párhuzamosíthatóság.
+Válassza ki a megfelelőket! Minél több blokkra osztunk egy fájlt, annál ________ bejegyzés készül a _______-nak a _______-én/ban.
+több, Master node, memória.
+Válassza ki a megfelelőt!
+A blokkosítás hozzájárul az I/O műveletek gyorsításához..
+Válassza ki a megfelelőt! A HDFS-re jellemző, hogy a fájlok
+egyszer írhatóak, sokszor olvashatóak..
+Válassza ki a megfelelőt! A replikáció azt jelenti, hogy _______.
+a fájlblokkokból másolatok készülnek és fizikailag különböző helyen tárolódnak.
+Válassza ki a megfelelőt! Mit jelent a HDFS?
+Hadoop Distributed File System.
+Válassza ki az igaz állítást!
+A mester gép megléte kritikus, mivel a memóriájában van a fájlok elhelyezkedését tartalmazó metaadat..
+A MapReduce folyamatok legnagyobb egysége a ________ .
+job.
+A Shuffle Sort fázisban a kulcs-érték párok _______ szerint kerülnek rendezésre.
+kulcs.
+Az "Oszd meg és uralkodj" elv azt jelenti, hogy _______
+a probléma részfeladatokra osztható, majd a részfeladatok a végén kiértékelésre kerülnek..
+Fejezze be a mondatot! A mapping fázisban _______ .
+kulcs-érték párok generálódnak..
+Fejezze be a mondatot! A MapReduce nem alkalmas real-time lekérdezésekre, mivel _______
+előkészítési idővel rendelkezik..
+Fejezze be a mondatot! A shuffle sort fázisban _______
+az adatok további node-okra kerülnek rendezve..
+Szeretnénk egy fájlblokkban lévő mondat összes karakterének darabszámát meghatározni. Ehhez szükség van _______ .
+egy map és egy reduce fázisra.
+Válassza ki a helyes állítást! A MapReduce két fő fázisa a map és a reduce, ahol ________ .
+map kötelező, reduce opcionális.
+Válassza ki az alábbiak közül azt, mely nem része a MapReduce folyamatnak!
+input stitching.
+Fejezze be a mondatot! A YARN _______
+Hadoop 2.0 óta több adatfeldolgozó keretrendszert támogat..
+Mi a lokális futtatás?
+a map fázis azon a node-on fut, ahol az adat fizikailag található.
+Mit rövidít a YARN? Válassza ki a helyes megoldást!
+Yet Another Resource Negotiator.
+Válassza ki a HAMIS állítást!
+hiba esetén a Resource Manager megkísérli a hibaelhárítást.
+Válassza ki a helyes választ! A feldolgozási folyamat legkisebb egysége: _______
+Task.
+Válassza ki a melyre igaz! "Feladata az alkalmazás sikeres lefuttatása és hibakezelés."
+Application Master.
+Válassza ki mely nem része a YARN-nak!
+Resource Allocator.
+Válassza ki melyre igaz! "A Master Node-on fut, és felelős a kliens-től érkezett kérések feldolgozására."
+Resource Manager.
+Válassza ki melyre igaz! "A feladatok monitorozásáért felel egy adott gépen."
+Node Manager.
+Válassza ki melyre igaz! "Fizikai erőforrások összessége egy node-on."
+Container.
+Mely fájlformátumra igaz? Válassza ki a megfelelőt! "Külső alkalmazásokkal való adatcserét tesz lehetővé a szerializáció/deszerializáció végett."
+Avro.
+Mely fájlformátumra igaz? Válassza ki a megfelelőt! "Sor-orientált fájlformátum, a Hive alap formátuma."
+ORC.
+Milyen típusú a következő adat? Oszlop szerint idézőjellel elválasztott, sorok végén newline karakterrel elválasztott fájl (.txt)
+Strukturált.
+Milyen típusú a következő adat? Videoanyagok (.mkv, .avi).
+Strukturálatlan.
+Válassza ki a hamis állítást!
+Az oszlop-orientált fájlformátumok jól használhatóak stream adatok esetén..
+Válassza ki a helyes állítást!
+Az oszlop-orientált fájlformátumok használata a táblára nézve nagy oszlopszám esetén kevés oszlop használata mellett előnyös..
+Válassza ki a helyes állítást! Ha a kodek támogatja a feldarabolást, akkor a tömörítés _______
+gyorsabb.
+Válassza ki a megfelelőt! Codec = _______
+compress decompress.
+Válassza ki a megfelelőt! Minden körülmények közt feldarabolhatóságot biztosító codec: _______
+Bzip2.
+Válassza ki a megfelelőt! Van egy Java objektumunk, és szeretnénk fájl formájában tárolni. Mire van szükségünk?
+szerializáció.
+Válassza ki az megfelelőt! Mi indokolja a tömörítést a Hadoop-ban?
+gyorsabb adattranszfer.
+Az Impala által használt daemonok nevei: _______.
+impalad, statestored, catalogd.
+Az Impala programozói interfésze: _______
+HiveQL.
+Az Impala saját alapértelmezett fájlformátuma: _______
+Parquet.
+Mit jelent az MPP?
+Massive Parallel Processing.
+Válassza ki a megfelelőt! "A Data Node-kon fut, vagy koordinátorként vagy dolgozó (executor)-ként viselkedik."
+impala daemon.
+Válassza ki a megfelelőt! "A klaszteren lévő adatokról biztosít friss metaadatokat."
+catalogservice daemon.
+Válassza ki a megfelelőt! Az Impala által használt MPP motor _______ programnyelven íródott.
+C++.
+Válassza ki a megfelelőt! Az Impala által támogatott tömörítési formátumok: _______.
+snappy, gzip, bzip.
+Válassza ki a megfelelőt! Az Impala daemon (impalad) _______
+a DataNode-kon fut..
+Válassza ki a megfelelőt! NEM Impala kliens: _______
+Statestore daemon.
+Válassza ki az igaz állítást!
+Az Impala meglévő Hadoop interfészeket, komponenseket használ..
+Melyik Hue komponensre van szükség? Válassza ki a megfelelőt! "Szeretnénk relációs adatbázisból adatot mozgatni HDFS-re."
+Sqoop2.
+Melyik Hue komponensre van szükség? Válassza ki a megfelelőt! "Szeretnénk a HDFS-en lévő fájlokat kezelni."
+File Browser.
+Melyik Hue komponensre van szükség? Válassza ki a megfelelőt! "Szeretnénk a business analyst kollégák számára hozzáférést biztosítani a Hive-hoz."
+User Admin.
+Melyik Hue komponensre van szükség? Válassza ki a megfelelőt! "Szeretnénk egy MapReduce alapú lekérdezést beütemezni, ami minden héten lefut."
+Oozie Editor and Dashboard.
+Melyik Hue komponensre van szükség? Válassza ki a megfelelőt! "Szeretnénk egy bizonyos rekordot tartalmazó adattáblát megtalálni több ezer tábla közül."
+Solr Search.
+Melyik NEM a Hue része?
+Hue Shell.
+Mihez NEM biztosít közvetlen hozzáférést a Hue? Válassza ki a megfelelőt!
+MySQL.
+Mit jelent a Hue?
+Hadoop User Experience.
+A Hive Metastore adatbázisra jellemző, hogy _______.
+JDBC-t támogat.
+Melyik igaz az Hive-beli User Defined Function-re? Válassza ki a megfelelőt.
+Bemenet és kimenetnél a sorok száma nem mindig azonos..
+Melyik jellemző a Hive-ra? Válassza ki a megfelelőt!
+gyors adatbetöltést tesz lehetővé, mivel a séma nem íráskor kerül ellenőrzésre..
+Melyik nem része a Hive-nak? Válassza ki a megfelelőt!
+ODBC application.
+Mik a tábla felosztás eszközei a Hive-ban? Válassza ki a megfelelőt!
+partitioning, bucketing.
+Milyen utasításhalmaz része az alábbi: "INSERT" ?
+Data Manipulation Language.
+Milyen utasításhalmaz része az alábbi: "TRUNCATE" ?
+Data Definition Language.
+Mit jelent a menedzselt tábla? Válassza ki a megfelelőt!
+Azt, hogy a tábla teljes élettartamát a Hive kezeli, törléskor az adat is törlődik..
+Mit jelent az external tábla? Válassza ki a megfelelőt!
+A tábla teljes élettartamát nem a Hive kezeli, törléskor csak a Hive-beli megfelelője törlődik..
+Válassza ki a HAMIS állítást!
+Particionálás során a tábla oszlopszáma bővül..
+Válassza ki a megfelelőt! "Lehetővé teszi hogy a Hive-hoz számos programnyelvből kapcsolódjunk."
+Thrift.
+Válassza ki a megfelelőt! A Hive lekérdezőnyelve: _______
+HiveQL.
+Válassza ki az igaz állítást!
+A Hive a Hadoop SQL adatbázisa..
+Válassza ki az igaz állítást!
+A Hive SQL lekérdezései mindig a kiválasztott végrehajtó motor szerint fordítódnak le..
+Melyik NEM opcionális sqoop paraméter? Válassza ki a megfelelőt!
+--connect.
+Melyik opcionális sqoop paraméter? Válassza ki a megfelelőt!
+--as-textfile.
+Melyik sqoop parancsra van szükségünk egy távoli MySQL adatbázis valamennyi táblájának Hive-ba való betöltésére? Válassza ki a megfelelőt!
+sqoop-import-all-tables.
+Mi a Sqoop?
+SQL to Hadoop.
+Mik az inkrementális importálás megadandó paraméterei? Válassza ki a megfelelőt!
+--incremental, --check-column, --last-value.
+Mire használható 'sqoop-eval' parancs? Válassza ki a megfelelőt!
+Tetszőleges SQL lekérdezéseket intézhetünk egy távoli adatbázis felé.
+Mit használjunk, ha az adatok részhalmazát szeretnénk importálni saját lekérdezéssel? Válassza ki a megfelelőt!
+free-form-query import.
+Válassza ki a megfelelőt! A Sqoop _______ adatbetöltő eszköz.
+batch alapú.
+Válassza ki a megfelelőt! Az importálás/exportálás _______ szálon történik.
+egy vagy több.
+Válassza ki a megfelelőt! Mely komponenssel nem áll kapcsolatban a Sqoop?
+Flume.
+Melyik állítás NEM igaz? Válassza ki a megfelelőt!
+Egy Sink több csatornából is olvashat..
+Melyik az igaz állítás? Válassza ki a megfelelőt!
+Egy Sink egyetlen csatornával köthető össze..
+Melyik nem létező csatorna?
+Spooling Channel.
+Melyikre igaz az alábbi? Válassza ki a megfelelőt! "Feladata az adatok átmeneti tárolása."
+channel.
+Melyikre igaz az alábbi? Válassza ki a megfelelőt! "Feladata az adatok célhelyre való eljuttatása."
+sink.
+Melyikre igaz az alábbi? Válassza ki a megfelelőt! "Feladata az adatok fogadás a termelő féltől."
+source.
+Mi a Flume agent? Válassza ki a megfelelőt!
+háttérben futó Java process.
+Mi a multiplexálás a Flume-ban? Válassza ki a megfelelőt!
+Egy source-ból csak a hozzárendelt csatornába/csatornákba jut el az adat..
+Mi a replikálás a Flume-ban? Válassza ki megfelelőt!
+Egy source-ból az összes csatornába eljut az adat..
+Mi az alapvető Flume esemény? Válassza ki a megfelelőt!
+egy rekord beérkezése.
+Miért van szükség csatornára? Válassza ki a megfelelőt!
+Azért, mert az adatok beérkezésének és feldolgozásának (továbbítás) sebessége között különbség lehet..
+Mik a Flume agent lehetséges komponensei? Válassza ki a megfelelőt!
+source, channel, sink.
+Mit biztosít/mi az előnye a tranzakciós működési elvnek? Válassza ki a megfelelőt!
+Azt, hogy egy rekord egyszer kerül csak feldolgozásra..
+Szeretnénk egy lokális fájl új tartalmait eljuttatni adatbázisba is. Melyikkel valósítható meg?
+Spooling Source, Memory Channel, Hive Sink.
+Válassza ki az igaz állítást!
+Az adatbeírás a csatornába batch alapon, konfigurálható darabszámban zajlik..
+Melyik alkalmazási területe a Spark-nak az alábbiak közül? Válassza ki a megfelelőt!
+stream-alapú real-time műveletvégzés.
+Melyik lezáró művelet? Válassza ki a megfelelőt!
+take().
+Melyik nem a Spark keretrendszer része? Válassza ki a megfelelőt!
+Ganglia.
+Melyik NEM kompatibilis klaszter menedzsere a Spark-nak? Válassza ki a megfelelőt!
+Ganglia.
+Melyik nem létező RDD tárolási forma? Válassza ki a megfelelőt!
+CACHE_ONLY.
+Melyik NEM lezáró művelet? Válassza ki a megfelelőt!
+read().
+Melyik NEM Spark API? Válassza ki a megfelelőt!
+Kotlin API.
+Melyik Spark komponensre jellemző? Válassza ki a megfelelőt! 'Lehetővé teszi a stream adatok real-time feldolgozását.'
+Spark Streaming.
+Melyik Spark komponensre jellemző? Válassza ki a megfelelőt! 'Spark beépített Machine learning könyyvtára.'
+MLib.
+Mi a Spark legfőbb előnye? Válassza ki a megfelelőt!
+gyors in-memory műveletvégzés.
+Mi a Spark végrehajtó motorja? Válassza ki a megfelelőt!
+saját motor Spark.
+Mi a SparkContext? Válassza ki a megfelelőt!
+driver applikáció belépési pontja.
+Mi az RDD? Válassza ki a megfelelőt!
+Resilient Distributed Dataset.
+Mi jellemző az RDD-re? Válassza ki a megfelelőt!
+csak olvasható, partíciókból áll.
+Mi NEM konfigurálható a SparkConf-ban? Válassza ki a megfelelőt!
+allokálni kívánt memória órajele.
+Mit jelent a lazy evaluation? Válassza ki a megfelelőt!
+a transzformációk csak egy action-höz érve hajtódnak végre.
+Mit jelent a MEMORY_AND_DISK_SER tárolási forma? Válassza ki a megfelelőt!
+az RDD a memóriában és a lemezen byte array-ként kerül tárolásra.
+Hol tárolja az HBase az adatokat fizikailag? Válassza ki a megfelelőt!
+HDFS-ben, de képes lokálisan is.
+Melyek az HBase klaszter komponensei? Válassza ki a megfelelőt!
+MasterServer, RegionServer.
+Melyik HBase klaszter komponensre jellemző? Válassza ki a megfelelőt! 'Feladata az adattáblák részhalmazának kezelése.'
+RegionServer.
+Melyik HBase klaszter komponensre jellemző? Válassza ki a megfelelőt! 'Feladata "dolgozó" node-ok orchestrációja.''
+MasterServer.
+Melyik írja le az HBase táblák szerkezetét? Válassza ki a megfelelőt!
+RowKey;Column Family:{Column Qualifier:Version:Value}.
+Mi a HFile? Válassza ki a megfelelőt!
+HBase fájlformátuma a HDFS-en való tárolásra.
+Mi a Locking HBase-ben? Válassza ki a megfelelőt!
+Atomi művelet a sorok frissítésére.
+Mi az autosharding? Válassza ki a megfelelőt!
+az adattáblák régiókra való automatikus felosztása, és Region Server-ekhez való hozzárendelése.
+Mi jellemző az HBase táblák tárolására? Válassza ki a megfelelőt!
+kis adatsűrűségű, perzisztens multidimenziós kulcs-érték párokat tartalmaz.
+Mi jellemző az HBase táblákra? Válassza ki a megfelelőt!
+hozzáadható új Column Qualifier.
+Mi szükséges az HBase alapműködéséhez? Válassza ki a megfelelőt!
+ZooKeper klaszter.
+Mi történik ha egy HBase tábla az előírt méretnél nagyobbra növekszik? Válassza ki a megfelelőt!
+új régió jön létre.
+A Shuffle&Sort fázisban a kulcs-érték párok _______ szerint kerülnek rendezésre.
+kulcs.
+Fejezze be a mondatot! A shuffle&sort fázisban _______
+az adatok további node-okra kerülnek rendezve..
+Milyen típusú adatok vannak és azokat mik jellemzik?
+olyan adatok, amelyek nem illeszthetők egyszerűen egy relációs adatstruktúrába → strukturálatlan adatok, megtalálható valamiféle struktúra, de hiányosan vagy nem szabályosan. → félig-strukturált adatok:, relációs adatmodellbe illesztett adatok → strukturált adatok.
+Párosítsa össze a fogalmakat:
+hagyományos PC-ken elosztott rendszerben gondolkodunk → scale out, egy gépen szeretnénk minél nagyobb számítási kapacitást, akkor csak egyszerűen felskálázzuk → scale up.
+Miből áll Doug Laney 2001-es 3V modellje, ami a Big Data alapjának tekintendő? (rossz válasz esetén mínusz pont)
+Volume (mennyiség) , Variety (változatosság), Velocity (sebesség):
+Igaz-e? A HDFS-re a Write Once Read Often modell jellemző.
+Igaz.
+A HUE Hadoop-os komponensek használatát teszi lehetővé grafikus felületen?
+Igaz.
+Az Impala MPP motort használ?
+Igaz.
+A Mapreduce csak strukturált adatok feldolgozására alkalmas?
+Hamis.
+YARN esetén nem létezik spekulativ futtatás ?
+Hamis.
+Hogyan hívunk egy 'MACI' nevű tárolt eljárást?
+CALL Maci();.
+Elvileg hogyan hívhatjuk meg a Maci() tárolt függvényt?
+SELECT Maci();.
+Egy bemenő paraméter nélküli tárolt rutin visszaad egy értéket. Ez a rutin:
+Lehet tárolt eljárás és tárolt függvény is..
+Tárolt rutinokban a változókat hol deklaráljuk?
+Bárhol, a BEGIN előtt vagy után.
+Az OUT típusú paraméternek nem lehet a tárolt rutinban az értékét módosítani.
+Hamis.
+A create, drop, alter utasítás szerepelhet tárolt függvényben?
+Hamis.
+Adott trigger azon a táblához amihez kapcsolódik nem tud DML műveletet végezni.
+Igaz.
+Párosítsa össze a fogalmakat:
+egy gépen szeretnénk minél nagyobb számítási kapacitást, akkor csak egyszerűen felskálázzuk → scale up, hagyományos PC-ken elosztott rendszerben gondolkodunk → scale out.
+Melyik nem a az eredeti 3V modell része?
+Complexity.
+Mely állítások igazak a Hadoopról? (Több helyes válasz is jó lehet.)
+Míg eredetileg csak maroknyi egymással együttműködő komponenst tartalmazott, azóta különféle technológiák hatalmas ökoszisztémájává vált., A Hive maga nem adatbázis, hanem SQL-szerű hozzáférést biztosít az elosztott tárolórendszeren (pl. HDFS) tárolt adatokhoz.
+Igaz-e?- A HADOOPban nincsenek olyan komponensek, amik lehetővé teszik a grafikusan az komponensek beállítását.
+Hamis.
+Mi jellemzi az ACID elvet ?
+Atomosság: a tranzakció összes elemi utasítását vagy végrehajtjuk vagy egyet sem (mindent vagy semmit), Konzisztencia: a tranzakciót követően is teljesülnek az adatbázisban előírt konzisztencia megszorítások (integritás megszorítások), azaz az adatelemekre és a közöttük lévő kapcsolatokra vonatkozó elvárások., Elkülönítés: ha több tranzakció fut párhuzamosan, egyszerre és ezek az utasítások keverednek, a tranzakciók végén az állapot olyan, mintha nem keveredtek volna, Tartósság: ha befejeződött egy tranzakció, annak az adatbázisban kifejtett hatása nem veszhet el.
+Mi jellemzi a BASE elvet? (több jó válasz lehet)
+Basic Availability: az adatbázis alapvetően elérhető (a kisebb kiesésekből gyorsan, automatikusan helyreáll) , Soft state: nem kell minden pillanatban konzisztensnek lennie az adatoknak a masterrel (hiszen a replikáció időbe telik), a rendszer állapota direkt beavatkozás nélkül is változhat, ahogy a módosítások továbbterjednek a clusterben, Eventually Consistent: a replikáció lezajlása után majd valamikor konzisztens lesz az egész cluster
+Melyik állítás igaz a Big Data technológiákkal kapcsolatban?
+Céljuk a nagy adatmennyiség, sebesség és változatosság problémáinak megoldása, ami a hagyományos adattechnológiákkal nem lehetséges..
+Miért fontos a CAP tétel?
+A neve a konzisztencia, rendelkezésre állás és partíció tolerancia kifejezésekből áll össze..
+Az alábbi állítások közül melyik igaz az elosztással (sharding) kapcsolatban?
+Az elosztott kulcsmező szűrése jelentősen javíthatja a lekérdezés teljesítményét..
+Melyik állítás igaz a Hadoopról?
+Eredetileg a HDFS, MAPREDUCE és YARN állt.
+Mit jelent a horizontális skálázhatóság?
+Több párhuzamos szerver bevonása..
+Mely elveket, kell követni a MongoDB adatmodelljének tervezésekor? (Több helyes válasz is jó lehet.)
+Általában jó ötlet a módosítandó mezők együttes tárolása ugyanabban a dokumentumban., Indexeket használni a gyakran szűrt vagy rendezett mezőkre.
+Melyik Igaz-e a MongoDB-re az alábbiak közül:
+Dokumentumtároló.
+Mire vonatkozik a „No SQL” megnevezés?
+Nem csupán SQL-re támaszkodik. (Not Only SQL.).
+Melyik Igaz-e a Redisre az alábbiak közül:
+Kulcs érték tároló, Van lehetőség STACK és LIST jellegű adatszerkezeti működésre
+Mi a helyes módja annak, hogy a kliensek csatlakozzanak egy replikakészlet másodlagos példányaihoz?
+Magas rendelkezésre állású olvasási lehetőség biztosítása még elsődleges hiba esetén is..
+Igaz-e? A beérkező adat értékét sokszor akkor lehet a leginkább kiaknázni, ha azonnal feldolgozzák, és a kötegelt feldolgozás már idő-és értékveszteséget jelent.
+Igaz.
+Igaz-e A Hadoop környezetben a kötelező komponensek mellett opcionális komponenseket is használhatunk?
+Igaz.
+Igaz-e? A Key-Value store-ok alkalmasak Session store-nak?
+Igaz.
+Igaz-e, hogy a Hadoop jele egy elefánt?
+Igaz.
+Hadoopban létezik olyan komponens aminek PIG a neve, és egy malac a jele?
+Igaz.
+Igaz-e? NoSQL esetében is el kell végezni a normalizációs eljárást.
+Hamis.
+Igaz-e? REDISBEN akár 16db szervert használhatunk és ezek között válthatunk
+Igaz.
+Melyik hierarchikus (egymásba ágyazódó) adattárolási rendszer figyelhető meg a MongoDB használatakor?
+Adatbázis / gyűjtemények / dokumentumok / kulcsok.
+Mik tartoznak a relációs adatbázis előnyei közé?
+Jól bevált, jól ismert, általános felhasználási célú, megbízható..
+Mik az előnyei a No SQL adatbázisoknak? (Több helyes válasz is jó lehet.)
+Flexibilis szerkezet., Könnyen skálázható.
+A Big Data adott vállalat minden szintjén megjelenhet?
+Igaz.
+Milyen zárolási problémák okozhatnak gondot a hagyományos relációs adatbázisoknál?
+Holtpontok keletkezhetnek..
+Mit jelent a vertikális skálázhatóság? (Több helyes válasz is jó lehet.)
+A szerver adattárolási és kiolvasási gyorsaságának növelése., A memória egyre nagyobb léptékekkel való bővítése.
+Igaz-e, hogy a BIG DATA kifejezést John Mashey használta először az 1990-es években?
+Igaz.
+Melyik állítás vonatkozik a CAP tételre? (Több helyes válasz is jó lehet.)
+Az adatok több példányban tárolódnak (replikáció), különböző csomópontokon, A CAP tétel három feltételéből, két vagy három feltétel tud teljesülni
+Melyik állítás helyes a MongoDB-re vonatkozóan? (Több helyes válasz is jó lehet.)
+Ez egy dokumentum-orientált adatbázis., Elosztást/feldarabolást (sharding) használ a vízszintes skálázhatóság érdekében.
+Melyik kódrészlettel választhatjuk ki egy adott Dataframe két oszlopát?
+Dataframe.select(col("col_1", "col_2"))
+Melyik kódrészlettel tudunk felolvasni egy parquet filet?
+spark.read.format("parquet").load(FILEPATH)
+Válassza ki a megfelelőt! Az Impala az adatokat ...
+...HDFS-en vagy HBase-ben tárolja.
+Válassza ki a helyes állítást!
+A fájlokról metaadat készül amely a Master node lemezén tárolódik.
+Válassza ki az igaz állítást!
+Az Impala működéséhez teljes Hive telepítés szükséges.
+Válassza ki a megfelelőt! A ... NEM opcionális Hadoop komponens.
+HDFS
+Melyik műveletekkel lehet egy Dataframe particióin módosítani?
+DataFrame.coalesce()
+Miért választja el a Kafka a termelőktől a fogyasztókat?
+Hogy a gyorsabb termelők nem befolyásolják a lassabb olvasókat.
+Spark tartalmaz magában tarolót?
+Nem, akármilyen tarolót hozzá lehet csatlakoztatni futás közben.
+Az erőforrás lefoglalása úgy zajlik, hogy ...
+...a Resource Manager megbecsüli a szükséges kapacitást, melyet a Node Managerek allokálnak.
+Válassza ki a megfelelőt! A redundáns tárolás azt jelenti, hogy ...
+...a fájlok blokkokra vannak felosztva, és fizikailag különálló gépeken helyezkednek el.
+Válassza ki a helyes állítást! A HDFS-en elhelyezkedő fájlblokkok tipikusan ... nagyságrendűek.
+gigaByte
+Az alábbiak közül melyik operáció egy narrow transformation?
+DataFrame.join()
+Válassza ki a helyes állítást! Ha csökken a fájlok blokkmérete, akkor ...
+...nő a metaadat, romlik a párhuzamosíthatóság.
+Az alábbiak közül melyik operáció egy action művelet?
+Dataframe.count()
+Válassza ki a helyes állítást! A YARN két fő feladata: ...
+...ütemezés és erőforrás menedzsment.
+Válassza ki a megfelelőt! A leglassabb tömörítési sebességgel bíró codec: ...
+...Bzip2.
+Lehet-e idő különbség a producerek termelési sebességében, valamint a consumerek olvasási sebességében?
+Mindegyik szereplőnek lehet más a sebessége.
+Hogyan épül fel a Spark végrehajtási hierarchiája?
+Stage - Job - Executor
+Melyik kódrészlettel választhatjuk ki egy adott Dataframe két oszlopát?
+Dataframe.select("col_1", "col_2").
+Melyik kódrészlettel tudunk felolvasni egy parquet filet?
+spark.read.format("parquet").load(FILEPATH).
+Válassza ki a megfelelőt! Az Impala az adatokat ...
+...HDFS-en vagy HBase-ben tárolja..
+Válassza ki a helyes állítást!
+A fájlokról metaadat készül amely a Master node memóriájában tárolódik..
+Válassza ki az igaz állítást!
+Az Impala működéséhez a Hive metastore jelenléte szükséges..
+Válassza ki a megfelelőt! A ... NEM opcionális Hadoop komponens.
+HDFS.
+Melyik műveletekkel lehet egy Dataframe particióin módosítani?
+DataFrame.repartition(), DataFrame.coalesce()
+Miért választja el a Kafka a termelőktől a fogyasztókat?
+Hogy a gyorsabb termelők nem befolyásolják a lassabb olvasókat..
+Spark tartalmaz magában tarolót?
+Nem, akármilyen tarolót hozzá lehet csatlakoztatni futás közben..
+Az erőforrás lefoglalása úgy zajlik, hogy ...
+...az Application Master megbecsüli a szükséges kapacitást, és kérést küld a Resource Manager-nek..
+Válassza ki a megfelelőt! A redundáns tárolás azt jelenti, hogy ...
+...a fájlok blokkokra vannak felosztva, és fizikailag különálló gépeken helyezkednek el..
+Válassza ki a helyes állítást! A HDFS-en elhelyezkedő fájlblokkok tipikusan ... nagyságrendűek.
+megaByte.
+Az alábbiak közül melyik operáció egy narrow transformation?
+DataFrame.select().
+Válassza ki a helyes állítást! Ha csökken a fájlok blokkmérete, akkor ...
+...nő a metaadat, javul a párhuzamosíthatóság..
+Az alábbiak közül melyik operáció egy action művelet?
+Dataframe.count().
+Válassza ki a helyes állítást! A YARN két fő feladata: ...
+...ütemezés és erőforrás menedzsment..
+Válassza ki a megfelelőt! A leglassabb tömörítési sebességgel bíró codec: ...
+...Bzip2..
+Lehet-e idő különbség a producerek termelési sebességében, valamint a consumerek olvasási sebességében?
+Mindegyik szereplőnek lehet más a sebessége..
+Hogyan épül fel a Spark végrehajtási hierarchiája?
+Job - Stage - Task.
+Az erőforrás lefoglalása úgy zajlik, hogy ...
+...az Application Master megbecsüli a szükséges kapacitást, és kérést küld a Resource Manager-nek.
+Mely definiálások a helyesek?
+spark.readStream.format("socket").option("host","localhost").option("port",12339).load()
+Válassza ki a megfelelőt! A Hadoop a horizontális skálázáson alapul ami azt jelenti hogy az erőforrás...
+...további gépek hozzáadásával növelhető.
+A Spark stream enged valós idejű feldolgozást?
+Mini batch alapú, amelyben a működési módot és frissítési időt be lehet állítani.
+Melyik adatstruktúrára épül a Dataframe?
+RDD
+Válassza ki a megfelelőt! A HDFS-t a ... elv jellemzi.
+Write Once Read Often
+Hogyan kérdezhetjük le egy DataFrame aktuális sémáját?
+Dataframe.printSchema()
+Válassza ki a helyes sorrendet!
+Input splitting, mapping, shuffling & sort, reducing.
+Fejezze be a mondatot! A reduce fázisban ...
+...kulcs-érték párok aggregálódnak.
+Válassza ki a megfelelőt! A feladata a health státusz ellenőrzés, leállása esetén a rendszer továbbra is működőképes: ...
+...statestore daemon.
+Mi az RDD?
+Resilient Distributed Dataset
+Adott egy fájl 436MB mérettel, a blokkméret 128MB. Hány blokkból áll a fájl?
+4
+Hogyan épül fel a Spark végrehajtási hierarchiája?
+Job - Stage - Task
+Hogyan kérdezhetjük le egy DataFrame aktuális particiószámát?
+Dataframe.rdd.getNumPartitions()
+Válassza ki a megfelelőt! A Hive lekérdezőnyelve: ...
+...HiveQL.
+Válassza ki a megfelelőt! A HDFS-t a ... elv jellemzi.
+Write Once Read Often
+Mely definiálások a helyesek?
+spark.readStream.format("socket").option("host","localhost").option("port",12339).load(), StreamingContext(sc, Seconds(60)).fileStream("temp.txt”).load().start()
+Válassza ki a megfelelőt! A Hadoop a horizontális skálázáson alapul ami azt jelenti hogy az erőforrás...
+...további gépek hozzáadásával növelhető..
+A Spark stream enged valós idejű feldolgozást?
+Mini batch alapú, amelyben a működési módot és frissítési időt be lehet állítani..
+Melyik adatstruktúrára épül a Dataframe?
+RDD.
+Válassza ki a megfelelőt! A HDFS-t a ... elv jellemzi.
+Write Once Read Often.
+Hogyan kérdezhetjük le egy DataFrame aktuális sémáját?
+Dataframe.printSchema().
+Válassza ki a helyes sorrendet!
+Input splitting, mapping, shuffling & sort, reducing..
+Fejezze be a mondatot! A reduce fázisban ...
+...kulcs-érték párok aggregálódnak..
+Válassza ki a megfelelőt! A feladata a health státusz ellenőrzés, leállása esetén a rendszer továbbra is működőképes: ...
+...statestore daemon..
+Mi az RDD?
+Resilient Distributed Dataset.
+Adott egy fájl 436MB mérettel, a blokkméret 128MB. Hány blokkból áll a fájl?
+4.
+Hogyan kérdezhetjük le egy DataFrame aktuális particiószámát?
+Dataframe.rdd.getNumPartitions().
+Válassza ki a megfelelőt! A Hive lekérdezőnyelve: ...
+...HiveQL..
+Válassza ki a megfelelőt! A HDFS-t a ... elv jellemzi.
+Write Once Read Often.
+Melyik kódrészlettel választhatjuk ki egy adott Dataframe két oszlopát?
+Dataframe.select("col_1", "col_2")
+Válassza ki a helyes állítást! Ha csökken a fájlok blokkmérete, akkor ...
+...nő a metaadat, javul a párhuzamosíthatóság.
+Melyik művelet értelmezhető a delta fileformátumon?
+UPDATE
+Válassza ki az igaz állítást!
+Az Impala működéséhez a Hive metastore jelenléte szükséges.
+Az alábbiak közül melyik operáció egy narrow transformation?
+DataFrame.select()
+Mi a spekulatív futtatás?
+Az Application Master több ugyanolyan taszkot futtat egyszerre.
+Válassza ki a helyes állítást!
+A fájlokról metaadat készül amely a Master node memóriájában tárolódik.
+Melyik művelet értelmezhető a delta fileformátumon?
+UPDATE, DELETE, INSERT
+Mi a spekulatív futtatás?
+Az Application Master több ugyanolyan taszkot futtat egyszerre..
+Miért előnyös a Spark RDD? Válassza ki a megfelelőt!
+Absztraktálja a háttérben zajló párhuzamos műveletvégzést.
+Melyik művelet értelmezhető a delta fileformátumon?
+DELETE
+Mi a Kafka működése elve?
+Topic-on keresztüli betöltés.
+Melyik műveletekkel lehet egy Dataframe particióin módosítani?
+DataFrame.repartition()
+Van-e megkötés a Kafka consumerek és producerek számában?
+Nincs, ahányat akarok, annyit hozok létre.
+Mely definiálások a helyesek?
+StreamingContext(sc, Seconds(60)).fileStream("temp.txt”).load().start()
+Mi a Kafka működése elve?
+Topic-on keresztüli betöltés..
+Van-e megkötés a Kafka consumerek és producerek számában?
+Nincs, ahányat akarok, annyit hozok létre..
+Miért előnyös a Spark RDD? Válassza ki a megfelelőt!
+Absztraktálja a háttérben zajló párhuzamos műveletvégzést..
+Hogyan kérdezhetjük le egy DataFrame aktuális particiószámát?
+Dataframe.rdd.setNumPartitions
+Válassza ki a helyes állítást! A HDFS-en elhelyezkedő fájlblokkok tipikusan ... nagyságrendűek.
+megaByte
+Melyik kódrészlettel választhatjuk ki egy adott Dataframe két oszlopát?
+Dataframe.select(col_1, col_2)
+Válassza ki a megfelelőt! A leglassabb tömörítési sebességgel bíró codec: ...
+...Snappy.
+Válassza ki a megfelelőt! A redundáns tárolás azt jelenti, hogy ...
+...a fájlokból több példány is van, melyek fizikailag különálló gépeken helyezkednek el.
+Fejezze be a mondatot! A reduce fázisban ...
+...kulcs-érték párok generálódnak.
+Melyik kódrészlettel tudunk felolvasni egy parquet filet?
+spark.read().path(FILEPATH, source = "parquet")
+Válassza ki a megfelelőt! A Hive lekérdezőnyelve: ...
+...Hive SQL.
+[if !supportLists] Mik az előnyei a No SQL adatbázisoknak? (Több helyes válasz is jó lehet.)
+Flexibilis szerkezet., Könnyen skálázható.
+[if !supportLists] Az alábbi állítások közül melyik igaz az elosztással (sharding) kapcsolatban?
+Az elosztott kulcsmező szűrése jelentősen javíthatja a lekérdezés teljesítményét..
+[if !supportLists] Milyen zárolási problémák okozhatnak gondot a hagyományos relációs adatbázisoknál?
+Holtpontok keletkezhetnek..
+[if !supportLists] [endif] Melyik állítás vonatkozik a CAP tételre? (Több helyes válasz is jó lehet.)
+Az adatok több példányban tárolódnak (replikáció), különböző csomópontokon, A CAP tétel három feltételéből, két vagy három feltétel tud teljesülni
+[if !supportLists] Miért fontos a CAP tétel?
+A neve a konzisztencia, rendelkezésre állás és partíció tolerancia kifejezésekből áll össze..
+[if !supportLists] [endif] Melyik állítás helyes a MongoDB-re vonatkozóan? (Több helyes válasz is jó lehet.)
+Ez egy dokumentum-orientált adatbázis., Elosztást/feldarabolást (sharding) használ a vízszintes skálázhatóság érdekében.
+[if !supportLists] [endif] Mely állítások igazak a Hadoopról? (Több helyes válasz is jó lehet.)
+Míg eredetileg csak maroknyi egymással együttműködő komponenst tartalmazott, azóta különféle technológiák hatalmas ökoszisztémájává vált., A Hive maga nem adatbázis, hanem SQL-szerű hozzáférést biztosít az elosztott tárolórendszeren (pl. HDFS) tárolt adatokhoz.
+[if !supportLists] [endif] Melyik hierarchikus (egymásba ágyazódó) adattárolási rendszer figyelhető meg a MongoDB használatakor?
+Adatbázis / gyűjtemények / dokumentumok / kulcsok.
+[if !supportLists] Mi jellemzi a BASE elvet? (több jó válasz lehet)
+Basic Availability: az adatbázis alapvetően elérhető (a kisebb kiesésekből gyorsan, automatikusan helyreáll) , Soft state: nem kell minden pillanatban konzisztensnek lennie az adatoknak a masterrel (hiszen a replikáció időbe telik), a rendszer állapota direkt beavatkozás nélkül is változhat, ahogy a módosítások továbbterjednek a clusterben, Eventually Consistent: a replikáció lezajlása után majd valamikor konzisztens lesz az egész cluster
+[if !supportLists] Mire vonatkozik a „No SQL” megnevezés?
+Nem csupán SQL-re támaszkodik. (Not Only SQL.).
+[if !supportLists] [endif] Mik tartoznak a relációs adatbázis előnyei közé?
+Jól bevált, jól ismert, általános felhasználási célú, megbízható..
+Ha egy skálán a 0 a személyes jelenét, 5 a blended learning, és 10 az e-learning oktatás, akkor hova helyezné az igényét BigData algoritmusok és programozás órával kapcsolatban.
+0 (100% személyes jelenlét), 1, 2, 3, 4, 5 (blendid módszer: ~ 50 % önálló feldolgozás, 50 % oktató általi oktatás), 6, 7, 8, 9, 10 (100% elearning - önálló felkészülés)
+Egy tízes skálán hányasra értékelné a notebook alapú módszertant?
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10
